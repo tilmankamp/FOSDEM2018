@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "width": 172,
+  "height": 47,
+  "duration": 5.232708,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.019831,
+      "\u001b]0;arbeit@tubuntu: ~/workspace/ds-dev-pres\u0007\u001b[01;32marbeit@tubuntu\u001b[00m:\u001b[01;34m~/workspace/ds-dev-pres\u001b[00m$ "
+    ],
+    [
+      2.141507,
+      "l"
+    ],
+    [
+      0.111881,
+      "s"
+    ],
+    [
+      0.152071,
+      "\r\n"
+    ],
+    [
+      0.00295,
+      "bower.json  CONTRIBUTING.md  \u001b[0m\u001b[01;34mcss\u001b[0m  demo.html  Gruntfile.js  \u001b[01;34mimages\u001b[0m  index.html  \u001b[01;34mjs\u001b[0m  \u001b[01;34mlib\u001b[0m  LICENSE  \u001b[01;34mnode_modules\u001b[0m  package.json  \u001b[01;34mplugin\u001b[0m  README.md  \u001b[01;34mtest\u001b[0m  test.json\r\n"
+    ],
+    [
+      0.001212,
+      "\u001b]0;arbeit@tubuntu: ~/workspace/ds-dev-pres\u0007\u001b[01;32marbeit@tubuntu\u001b[00m:\u001b[01;34m~/workspace/ds-dev-pres\u001b[00m$ "
+    ],
+    [
+      1.747866,
+      "l"
+    ],
+    [
+      0.111905,
+      "s"
+    ],
+    [
+      0.104024,
+      " "
+    ],
+    [
+      0.240033,
+      "-"
+    ],
+    [
+      0.288055,
+      "l"
+    ],
+    [
+      0.175908,
+      "a"
+    ],
+    [
+      0.127915,
+      "\r\n"
+    ],
+    [
+      0.004383,
+      "insgesamt 152\r\n"
+    ],
+    [
+      8.7e-05,
+      "drwxr-xr-x  10 arbeit arbeit  4096 Jan 22 16:48 \u001b[0m\u001b[01;34m.\u001b[0m\r\ndrwxr-xr-x  19 arbeit arbeit  4096 Jan 22 11:03 \u001b[01;34m..\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit   512 Jan 22 11:59 bower.json\r\n-rw-r--r--   1 arbeit arbeit  1062 Jan 22 11:59 CONTRIBUTING.md\r\ndrwxr-xr-x   4 arbeit arbeit  4096 Jan 22 11:59 \u001b[01;34mcss\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit 15877 Jan 22 11:59 demo.html\r\ndrwxr-xr-x   8 arbeit arbeit  4096 Jan 22 16:39 \u001b[01;34m.git\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit   123 Jan 22 11:59 .gitignore\r\n-rw-r--r--   1 arbeit arbeit  3736 Jan 22 11:59 Gruntfile.js\r\ndrwxrwxr-x   2 arbeit arbeit  4096 Jan 22 15:15 \u001b[01;34mimages\u001b[0m\r\n"
+    ],
+    [
+      5e-05,
+      "-rw-r--r--   1 arbeit arbeit  3334 Jan 22 16:38 index.html\r\ndrwxr-xr-x   2 arbeit arbeit  4096 Jan 22 13:45 \u001b[01;34mjs\u001b[0m\r\ndrwxr-xr-x   5 arbeit arbeit  4096 Jan 22 11:59 \u001b[01;34mlib\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit  1103 Jan 22 11:59 LICENSE\r\ndrwxr-xr-x 390 arbeit arbeit 16384 Jan 22 12:02 \u001b[01;34mnode_modules\u001b[0m\r\n"
+    ],
+    [
+      3.4e-05,
+      "-rw-r--r--   1 arbeit arbeit  1066 Jan 22 11:59 package.json\r\ndrwxr-xr-x  11 arbeit arbeit  4096 Jan 22 11:59 \u001b[01;34mplugin\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit 50986 Jan 22 11:59 README.md\r\ndrwxr-xr-x   3 arbeit arbeit  4096 Jan 22 11:59 \u001b[01;34mtest\u001b[0m\r\n-rw-r--r--   1 arbeit arbeit     0 Jan 22 16:48 test.json\r\n"
+    ],
+    [
+      3.2e-05,
+      "-rw-r--r--   1 arbeit arbeit   108 Jan 22 11:59 .travis.yml\r\n"
+    ],
+    [
+      0.001308,
+      "\u001b]0;arbeit@tubuntu: ~/workspace/ds-dev-pres\u0007\u001b[01;32marbeit@tubuntu\u001b[00m:\u001b[01;34m~/workspace/ds-dev-pres\u001b[00m$ "
+    ]
+  ]
+}
