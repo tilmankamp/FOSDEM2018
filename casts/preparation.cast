@@ -1,0 +1,574 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 25,
+  "duration": 295.356355,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.02086,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.146397,
+      "w"
+    ],
+    [
+      0.271814,
+      "g"
+    ],
+    [
+      0.135961,
+      "e"
+    ],
+    [
+      0.128067,
+      "t"
+    ],
+    [
+      0.175959,
+      " "
+    ],
+    [
+      1.600229,
+      "-"
+    ],
+    [
+      0.447945,
+      "O"
+    ],
+    [
+      0.23209,
+      " "
+    ],
+    [
+      0.319843,
+      "-"
+    ],
+    [
+      0.904253,
+      " "
+    ],
+    [
+      1.530159,
+      "https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/deepspeech-0\r0.1.0-models.tar.gz"
+    ],
+    [
+      1.389665,
+      " "
+    ],
+    [
+      1.304029,
+      "|"
+    ],
+    [
+      0.543983,
+      " "
+    ],
+    [
+      0.295695,
+      "t"
+    ],
+    [
+      0.440117,
+      "a"
+    ],
+    [
+      0.35195,
+      "r"
+    ],
+    [
+      0.376194,
+      " "
+    ],
+    [
+      1.319882,
+      "x"
+    ],
+    [
+      0.29759,
+      "f"
+    ],
+    [
+      0.454411,
+      "z"
+    ],
+    [
+      0.319938,
+      " "
+    ],
+    [
+      0.391981,
+      "-"
+    ],
+    [
+      0.336048,
+      "\r\n"
+    ],
+    [
+      0.004789,
+      "--2018-01-23 20:04:47--  https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/deepspeech-0.1.0-models.tar.gz\r\n"
+    ],
+    [
+      0.00226,
+      "Auflösen des Hostnamens github.com (github.com)… "
+    ],
+    [
+      0.025141,
+      "192.30.253.112, 192.30.253.113\r\nVerbindungsaufbau zu github.com (github.com)|192.30.253.112|:443 … "
+    ],
+    [
+      0.121268,
+      "verbunden.\r\n"
+    ],
+    [
+      0.266294,
+      "HTTP-Anforderung gesendet, auf Antwort wird gewartet … "
+    ],
+    [
+      0.647315,
+      "302 Found\r\n"
+    ],
+    [
+      5.9e-05,
+      "Platz: https://github-production-release-asset-2e65be.s3.amazonaws.com/60273704/71b1b618-cf78-11e7-869d-9b308f1cfb6e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180123T190448Z&X-Amz-Expires=300&X-Amz-Signature=baa618e8a6898a780b89fa746130acfe8c5766024f0d9ec50cddd7d3fafd0371&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddeepspeech-0.1.0-models.tar.gz&response-content-type=application%2Foctet-stream [folgend]\r\n"
+    ],
+    [
+      4.9e-05,
+      "--2018-01-23 20:04:48--  https://github-production-release-asset-2e65be.s3.amazonaws.com/60273704/71b1b618-cf78-11e7-869d-9b308f1cfb6e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180123T190448Z&X-Amz-Expires=300&X-Amz-Signature=baa618e8a6898a780b89fa746130acfe8c5766024f0d9ec50cddd7d3fafd0371&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Ddeepspeech-0.1.0-models.tar.gz&response-content-type=application%2Foctet-stream\r\n"
+    ],
+    [
+      4.7e-05,
+      "Auflösen des Hostnamens github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)… "
+    ],
+    [
+      0.053349,
+      "52.216.229.24\r\nVerbindungsaufbau zu github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.229.24|:443 … "
+    ],
+    [
+      0.118166,
+      "verbunden.\r\n"
+    ],
+    [
+      0.240222,
+      "HTTP-Anforderung gesendet, auf Antwort wird gewartet … "
+    ],
+    [
+      0.21629,
+      "200 OK\r\n"
+    ],
+    [
+      0.000252,
+      "Länge: 1403867598 (1,3G) [application/octet-stream]\r\nWird in »STDOUT« gespeichert.\r\n"
+    ],
+    [
+      7.7e-05,
+      "\r\n\r-                          0%[                                   ]       0  --.-KB/s               "
+    ],
+    [
+      0.236289,
+      "\r-                          0%[                                   ]  24,56K   104KB/s               "
+    ],
+    [
+      0.069519,
+      "\r-                        100%[==================================>]   1,31G  5,56MB/s    in 4m 2s   \r\n\r\n2018-01-23 20:08:51 (5,53 MB/s) - auf die Standardausgabe geschrieben [1403867598/1403867598]\r\n\r\n"
+    ],
+    [
+      0.002475,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.01976,
+      "l"
+    ],
+    [
+      0.151821,
+      "s"
+    ],
+    [
+      1.096185,
+      "\r\n"
+    ],
+    [
+      0.00326,
+      "\u001b[0m\u001b[01;34mmodels\u001b[0m\r\n"
+    ],
+    [
+      0.000951,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.187816,
+      "c"
+    ],
+    [
+      0.175884,
+      "d"
+    ],
+    [
+      0.10383,
+      " "
+    ],
+    [
+      0.216163,
+      "m"
+    ],
+    [
+      0.23199,
+      "o"
+    ],
+    [
+      0.191991,
+      "d"
+    ],
+    [
+      0.341845,
+      "els/"
+    ],
+    [
+      0.394317,
+      "\r\n"
+    ],
+    [
+      0.000602,
+      "\u001b]0;demo@tubuntu: ~/models\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/models\u001b[00m$ "
+    ],
+    [
+      1.831455,
+      "l"
+    ],
+    [
+      0.151901,
+      "s"
+    ],
+    [
+      0.111981,
+      " "
+    ],
+    [
+      0.247909,
+      "-"
+    ],
+    [
+      0.279892,
+      "l"
+    ],
+    [
+      0.128284,
+      "a"
+    ],
+    [
+      0.887824,
+      "\r\n"
+    ],
+    [
+      0.004235,
+      "insgesamt 2085528\r\n"
+    ],
+    [
+      6.5e-05,
+      "drwxr-xr-x 2 demo demo       4096 Nov 20 16:54 \u001b[0m\u001b[01;34m.\u001b[0m\r\ndrwxr-xr-x 8 demo demo       4096 Jan 23 20:04 \u001b[01;34m..\u001b[0m\r\n-rw-r--r-- 1 demo demo        329 Nov 17 20:25 alphabet.txt\r\n-rw-r--r-- 1 demo demo 1601028778 Nov 17 20:25 lm.binary\r\n-rw-r--r-- 1 demo demo  490979273 Nov 17 20:28 output_graph.pb\r\n-rw-r--r-- 1 demo demo   43550345 Nov 17 20:25 trie\r\n"
+    ],
+    [
+      0.001118,
+      "\u001b]0;demo@tubuntu: ~/models\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/models\u001b[00m$ "
+    ],
+    [
+      2.15474,
+      "c"
+    ],
+    [
+      0.176039,
+      "d"
+    ],
+    [
+      0.103665,
+      " "
+    ],
+    [
+      0.256163,
+      "."
+    ],
+    [
+      0.15204,
+      "."
+    ],
+    [
+      0.872014,
+      "\r\n"
+    ],
+    [
+      0.000639,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.255529,
+      "w"
+    ],
+    [
+      0.231857,
+      "g"
+    ],
+    [
+      0.127739,
+      "e"
+    ],
+    [
+      0.112105,
+      "t"
+    ],
+    [
+      0.152049,
+      " "
+    ],
+    [
+      0.600117,
+      "-"
+    ],
+    [
+      0.672127,
+      "O"
+    ],
+    [
+      0.25587,
+      " "
+    ],
+    [
+      0.400096,
+      "-"
+    ],
+    [
+      0.600029,
+      " "
+    ],
+    [
+      0.938089,
+      "https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/audio-0.1.0.\r.tar.gz"
+    ],
+    [
+      1.349684,
+      " "
+    ],
+    [
+      0.991958,
+      "|"
+    ],
+    [
+      0.568052,
+      " "
+    ],
+    [
+      0.400049,
+      "t"
+    ],
+    [
+      0.392221,
+      "a"
+    ],
+    [
+      0.360018,
+      "r"
+    ],
+    [
+      1.295631,
+      " "
+    ],
+    [
+      1.072121,
+      "x"
+    ],
+    [
+      0.27982,
+      "f"
+    ],
+    [
+      0.480258,
+      "z"
+    ],
+    [
+      0.887878,
+      " "
+    ],
+    [
+      0.295824,
+      "-"
+    ],
+    [
+      0.616116,
+      "\r\n"
+    ],
+    [
+      0.004976,
+      "--2018-01-23 20:09:18--  https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/audio-0.1.0.tar.gz\r\n"
+    ],
+    [
+      0.002093,
+      "Auflösen des Hostnamens github.com (github.com)… "
+    ],
+    [
+      0.021659,
+      "192.30.253.113, 192.30.253.112\r\nVerbindungsaufbau zu github.com (github.com)|192.30.253.113|:443 … "
+    ],
+    [
+      0.113461,
+      "verbunden.\r\n"
+    ],
+    [
+      0.231263,
+      "HTTP-Anforderung gesendet, auf Antwort wird gewartet … "
+    ],
+    [
+      0.233163,
+      "302 Found\r\n"
+    ],
+    [
+      8.3e-05,
+      "Platz: https://github-production-release-asset-2e65be.s3.amazonaws.com/60273704/f52dd158-cf77-11e7-9b16-b3c636b5cabb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180123T190919Z&X-Amz-Expires=300&X-Amz-Signature=8ea10512002a3a55af6421cd3aab3c17150194a2ded3ec3a35ba31b1c54ccb6b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daudio-0.1.0.tar.gz&response-content-type=application%2Foctet-stream [folgend]\r\n"
+    ],
+    [
+      6.6e-05,
+      "--2018-01-23 20:09:19--  https://github-production-release-asset-2e65be.s3.amazonaws.com/60273704/f52dd158-cf77-11e7-9b16-b3c636b5cabb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180123T190919Z&X-Amz-Expires=300&X-Amz-Signature=8ea10512002a3a55af6421cd3aab3c17150194a2ded3ec3a35ba31b1c54ccb6b&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Daudio-0.1.0.tar.gz&response-content-type=application%2Foctet-stream\r\n"
+    ],
+    [
+      0.000177,
+      "Auflösen des Hostnamens github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)… "
+    ],
+    [
+      0.021824,
+      "52.216.65.200\r\nVerbindungsaufbau zu github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.65.200|:443 … "
+    ],
+    [
+      0.115787,
+      "verbunden.\r\n"
+    ],
+    [
+      0.234661,
+      "HTTP-Anforderung gesendet, auf Antwort wird gewartet … "
+    ],
+    [
+      0.161572,
+      "200 OK\r\n"
+    ],
+    [
+      0.000126,
+      "Länge: 190195 (186K) [application/octet-stream]\r\n"
+    ],
+    [
+      3.8e-05,
+      "Wird in »STDOUT« gespeichert.\r\n"
+    ],
+    [
+      3e-05,
+      "\r\n"
+    ],
+    [
+      2.8e-05,
+      "\r-                          0%[                                   ]       0  --.-KB/s               "
+    ],
+    [
+      0.232331,
+      "\r-                         13%[===>                               ]  24,57K   106KB/s               "
+    ],
+    [
+      0.232435,
+      "\r-                         68%[======================>            ] 126,57K   272KB/s               "
+    ],
+    [
+      0.008451,
+      "\r-                        100%[==================================>] 185,74K   393KB/s    in 0,5s    \r\n\r\n2018-01-23 20:09:20 (393 KB/s) - auf die Standardausgabe geschrieben [190195/190195]\r\n\r\n"
+    ],
+    [
+      0.000853,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.225123,
+      "l"
+    ],
+    [
+      0.111851,
+      "s"
+    ],
+    [
+      0.392152,
+      "\r\n"
+    ],
+    [
+      0.002834,
+      "\u001b[0m\u001b[01;34maudio\u001b[0m  \u001b[01;34mmodels\u001b[0m\r\n"
+    ],
+    [
+      0.000748,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.988588,
+      "c"
+    ],
+    [
+      0.215805,
+      "d"
+    ],
+    [
+      0.112004,
+      " "
+    ],
+    [
+      0.24595,
+      "a"
+    ],
+    [
+      0.137903,
+      "u"
+    ],
+    [
+      0.207992,
+      "d"
+    ],
+    [
+      0.256008,
+      "i"
+    ],
+    [
+      0.231907,
+      "o"
+    ],
+    [
+      0.301782,
+      "/"
+    ],
+    [
+      0.450457,
+      "\r\n"
+    ],
+    [
+      0.000581,
+      "\u001b]0;demo@tubuntu: ~/audio\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/audio\u001b[00m$ "
+    ],
+    [
+      0.847477,
+      "l"
+    ],
+    [
+      0.135939,
+      "s"
+    ],
+    [
+      0.400002,
+      "\r\n"
+    ],
+    [
+      0.002726,
+      "\u001b[0m\u001b[00;36m2830-3980-0043.wav\u001b[0m  \u001b[00;36m4507-16021-0012.wav\u001b[0m  \u001b[00;36m8455-210777-0068.wav\u001b[0m\r\n"
+    ],
+    [
+      0.000863,
+      "\u001b]0;demo@tubuntu: ~/audio\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/audio\u001b[00m$ "
+    ]
+  ]
+}

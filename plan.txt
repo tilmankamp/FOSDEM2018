@@ -1,0 +1,77 @@
+wget -O - https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/deepspeech-0.1.0-models.tar.gz | tar xfz -
+
+ls
+
+cd models
+
+ls -la
+
+cd ..
+
+wget -O - https://github.com/mozilla/DeepSpeech/releases/download/v0.1.0/audio-0.1.0.tar.gz | tar xfz -
+
+ls
+
+cd audio
+
+ls
+
+
+
+
+
+
+virtualenv venv
+
+source venv/bin/activate
+
+pip install deepspeech
+
+deepspeech --help
+
+deepspeech models/output_graph.pb audio/8455-210777-0068.wav models/alphabet.txt
+
+pip install deepspeech_gpu
+
+deepspeech models/output_graph.pb audio/8455-210777-0068.wav models/alphabet.txt
+
+
+
+
+
+mkdir nodedemo
+
+cd nodedemo
+
+npm install deepspeech
+
+node_modules/deepspeech/client.js --help
+
+node_modules/deepspeech/client.js ../models/output_graph.pb ../audio/8455-210777-0068.wav ../models/alphabet.txt
+
+npm install deepspeech-gpu
+
+node_modules/deepspeech-gpu/client.js ../models/output_graph.pb ../audio/8455-210777-0068.wav ../models/alphabet.txt
+
+
+
+
+- Preparation and data download
+
+- JS installation and usage
+
+- Python installation and usage
+
+- Inference with DeepSpeech.py (?)
+
+
+
+- CommonVoice download
+
+- Training a new model
+
+- Working with wav files
+
+						
+
+
