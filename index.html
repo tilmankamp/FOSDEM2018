@@ -29,7 +29,46 @@
 					<img src="images/HAL9000.svg" alt="HAL9000" height="400em" style="border:0; background:transparent; box-shadow: none"/>
 				</section>
 				<section>
-					<asciinema-player font-size="18" src="casts/preparation.cast"></asciinema-player>
+					<asciinema-player font-size="16" src="casts/preparation.cast"></asciinema-player>
+					Preparation of the environment
+				</section>
+				<section>
+					<asciinema-player font-size="16" src="casts/python_usage.cast"></asciinema-player>
+					Python usage
+				</section>
+				<section>
+<pre><code class="python" style="font-size: 20px">from deepspeech.model import Model
+# ...
+def main():
+    # ...
+    ds = Model(args.model, ..., args.alphabet, ...)
+    ds.enableDecoderWithLM(args.alphabet, args.lm, args.trie, ...)
+    rate, audio = wav.read(args.audio)
+    transcript = ds.stt(audio, rate)
+    print(transcript)
+if __name__ == '__main__':
+	main()</code></pre>
+					Relevant Python code
+				</section>
+				<section>
+					<asciinema-player font-size="16" src="casts/js_usage.cast"></asciinema-player>
+					Node.js usage
+				</section>
+								<section>
+<pre><code class="javascript" style="font-size: 16px">var audioStream = new MemoryStream()
+Fs.createReadStream(process.argv[3]).
+    pipe(Sox({ output: { bits: 16, rate: 16000, channels: 1, type: 'raw' } })).
+    pipe(audioStream)
+audioStream.on('finish', () => {
+    audioBuffer = audioStream.toBuffer()
+    var model = new Ds.Model(process.argv[2], ..., process.argv[4])
+    if (process.argv.length > 6) {
+        model.enableDecoderWithLM(process.argv[4], process.argv[5], process.argv[6], ...)
+    }
+    // LocalDsSTT() expected a short*
+    console.log(model.stt(audioBuffer.slice(0, audioBuffer.length / 2), 16000))
+});</code></pre>
+					Relevant Node.js code
 				</section>
 				<section data-markdown data-separator="---">
 					<script type="text/template">
