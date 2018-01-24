@@ -1,0 +1,2082 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 25,
+  "duration": 388.133253,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.019464,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.846323,
+      "# you have to install git lfs first! https://git-lfs.github.com/"
+    ],
+    [
+      1.717089,
+      "\r\n"
+    ],
+    [
+      0.000622,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      5.66384,
+      "g"
+    ],
+    [
+      0.103677,
+      "i"
+    ],
+    [
+      0.376139,
+      "t"
+    ],
+    [
+      0.712089,
+      " "
+    ],
+    [
+      0.431831,
+      "c"
+    ],
+    [
+      0.096092,
+      "l"
+    ],
+    [
+      0.19203,
+      "o"
+    ],
+    [
+      0.20805,
+      "n"
+    ],
+    [
+      0.111731,
+      "e"
+    ],
+    [
+      0.152092,
+      " "
+    ],
+    [
+      0.359967,
+      "h"
+    ],
+    [
+      0.191943,
+      "t"
+    ],
+    [
+      0.128136,
+      "t"
+    ],
+    [
+      0.111851,
+      "p"
+    ],
+    [
+      0.312029,
+      "s"
+    ],
+    [
+      0.544143,
+      ":"
+    ],
+    [
+      0.960132,
+      "/"
+    ],
+    [
+      0.111683,
+      "/"
+    ],
+    [
+      2.512207,
+      "g"
+    ],
+    [
+      0.127949,
+      "i"
+    ],
+    [
+      0.976042,
+      "t"
+    ],
+    [
+      0.207897,
+      "h"
+    ],
+    [
+      0.280052,
+      "u"
+    ],
+    [
+      0.231907,
+      "b"
+    ],
+    [
+      0.376185,
+      "."
+    ],
+    [
+      0.359777,
+      "c"
+    ],
+    [
+      0.088031,
+      "o"
+    ],
+    [
+      0.232073,
+      "m"
+    ],
+    [
+      0.320072,
+      "/"
+    ],
+    [
+      0.319995,
+      "m"
+    ],
+    [
+      0.216209,
+      "o"
+    ],
+    [
+      0.335788,
+      "z"
+    ],
+    [
+      0.127903,
+      "i"
+    ],
+    [
+      0.256062,
+      "l"
+    ],
+    [
+      0.087908,
+      "l"
+    ],
+    [
+      0.928131,
+      "a"
+    ],
+    [
+      0.816191,
+      "/"
+    ],
+    [
+      0.463556,
+      "D"
+    ],
+    [
+      0.280446,
+      "e"
+    ],
+    [
+      0.111917,
+      "e"
+    ],
+    [
+      0.10401,
+      "p"
+    ],
+    [
+      0.36,
+      "S"
+    ],
+    [
+      0.223981,
+      "p"
+    ],
+    [
+      0.167907,
+      "e"
+    ],
+    [
+      0.12805,
+      "e"
+    ],
+    [
+      0.296069,
+      "c"
+    ],
+    [
+      0.072021,
+      "h"
+    ],
+    [
+      0.968133,
+      "."
+    ],
+    [
+      0.359826,
+      "g"
+    ],
+    [
+      0.127921,
+      "i"
+    ],
+    [
+      0.238556,
+      "t"
+    ],
+    [
+      0.982982,
+      "\r\n"
+    ],
+    [
+      0.000826,
+      "Cloning into 'DeepSpeech'...\r\n"
+    ],
+    [
+      1.011432,
+      "remote: Counting objects: 4023, done.\u001b[K\r\nremote: Compressing objects:  25% (1/4)   \u001b[K\rremote: Compressing objects:  50% (2/4)   \u001b[K\rremote: Compressing objects:  75% (3/4)   \u001b[K\rremote: Compressing objects: 100% (4/4)   \u001b[K\rremote: Compressing objects: 100% (4/4), done.\u001b[K\r\n"
+    ],
+    [
+      0.005884,
+      "Receiving objects:   0% (1/4023)   \r"
+    ],
+    [
+      0.001422,
+      "Receiving objects:   1% (41/4023)   \r"
+    ],
+    [
+      0.002934,
+      "Receiving objects:   2% (81/4023)   \r"
+    ],
+    [
+      0.11128,
+      "Receiving objects:   3% (121/4023)   \r"
+    ],
+    [
+      0.004134,
+      "Receiving objects:   4% (161/4023)   \r"
+    ],
+    [
+      0.002717,
+      "Receiving objects:   5% (202/4023)   \r"
+    ],
+    [
+      0.001925,
+      "Receiving objects:   6% (242/4023)   \r"
+    ],
+    [
+      0.001688,
+      "Receiving objects:   7% (282/4023)   \r"
+    ],
+    [
+      0.001244,
+      "Receiving objects:   8% (322/4023)   \r"
+    ],
+    [
+      0.002589,
+      "Receiving objects:   9% (363/4023)   \r"
+    ],
+    [
+      0.00074,
+      "Receiving objects:  10% (403/4023)   \r"
+    ],
+    [
+      0.00159,
+      "Receiving objects:  11% (443/4023)   \r"
+    ],
+    [
+      0.001362,
+      "Receiving objects:  12% (483/4023)   \r"
+    ],
+    [
+      0.095661,
+      "Receiving objects:  13% (523/4023)   \r"
+    ],
+    [
+      0.001271,
+      "Receiving objects:  14% (564/4023)   \r"
+    ],
+    [
+      0.005692,
+      "Receiving objects:  15% (604/4023)   \r"
+    ],
+    [
+      0.001449,
+      "Receiving objects:  16% (644/4023)   \r"
+    ],
+    [
+      0.001303,
+      "Receiving objects:  17% (684/4023)   \r"
+    ],
+    [
+      0.0014,
+      "Receiving objects:  18% (725/4023)   \r"
+    ],
+    [
+      0.001513,
+      "Receiving objects:  19% (765/4023)   \r"
+    ],
+    [
+      0.0018,
+      "Receiving objects:  20% (805/4023)   \r"
+    ],
+    [
+      0.001334,
+      "Receiving objects:  21% (845/4023)   \r"
+    ],
+    [
+      0.001226,
+      "Receiving objects:  22% (886/4023)   \r"
+    ],
+    [
+      0.002076,
+      "Receiving objects:  23% (926/4023)   \r"
+    ],
+    [
+      0.010594,
+      "Receiving objects:  24% (966/4023)   \r"
+    ],
+    [
+      0.1298,
+      "Receiving objects:  25% (1006/4023)   \r"
+    ],
+    [
+      0.136783,
+      "Receiving objects:  26% (1046/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.007366,
+      "Receiving objects:  27% (1087/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.008995,
+      "Receiving objects:  28% (1127/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.006536,
+      "Receiving objects:  29% (1167/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.009364,
+      "Receiving objects:  30% (1207/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.140473,
+      "Receiving objects:  31% (1248/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.008398,
+      "Receiving objects:  32% (1288/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.009349,
+      "Receiving objects:  33% (1328/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.008816,
+      "Receiving objects:  34% (1368/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.004305,
+      "Receiving objects:  35% (1409/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.003237,
+      "Receiving objects:  36% (1449/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.001122,
+      "Receiving objects:  37% (1489/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000281,
+      "Receiving objects:  38% (1529/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000516,
+      "Receiving objects:  39% (1569/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.001246,
+      "Receiving objects:  40% (1610/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      9.9e-05,
+      "Receiving objects:  41% (1650/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000165,
+      "Receiving objects:  42% (1690/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000229,
+      "Receiving objects:  43% (1730/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000329,
+      "Receiving objects:  44% (1771/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000437,
+      "Receiving objects:  45% (1811/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000122,
+      "Receiving objects:  46% (1851/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      7.6e-05,
+      "Receiving objects:  47% (1891/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000311,
+      "Receiving objects:  48% (1932/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.000153,
+      "Receiving objects:  49% (1972/4023), 988.01 KiB | 1.92 MiB/s   \r"
+    ],
+    [
+      0.270845,
+      "Receiving objects:  49% (1990/4023), 3.48 MiB | 3.45 MiB/s   \r"
+    ],
+    [
+      1.00039,
+      "Receiving objects:  49% (1990/4023), 8.70 MiB | 4.33 MiB/s   \r"
+    ],
+    [
+      0.71399,
+      "Receiving objects:  50% (2012/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.003508,
+      "Receiving objects:  51% (2052/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.189363,
+      "Receiving objects:  52% (2092/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.000669,
+      "Receiving objects:  53% (2133/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.003239,
+      "Receiving objects:  54% (2173/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.0042,
+      "Receiving objects:  55% (2213/4023), 10.71 MiB | 4.26 MiB/s   \r"
+    ],
+    [
+      0.087883,
+      "Receiving objects:  55% (2239/4023), 12.81 MiB | 4.25 MiB/s   \r"
+    ],
+    [
+      0.827697,
+      "Receiving objects:  56% (2253/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002702,
+      "Receiving objects:  57% (2294/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.000799,
+      "Receiving objects:  58% (2334/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.001642,
+      "Receiving objects:  59% (2374/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.000458,
+      "Receiving objects:  60% (2414/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.001849,
+      "Receiving objects:  61% (2455/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.019916,
+      "Receiving objects:  62% (2495/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002639,
+      "Receiving objects:  63% (2535/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002959,
+      "Receiving objects:  64% (2575/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.001847,
+      "Receiving objects:  65% (2615/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.003823,
+      "Receiving objects:  66% (2656/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002153,
+      "Receiving objects:  67% (2696/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.111431,
+      "Receiving objects:  68% (2736/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002191,
+      "Receiving objects:  69% (2776/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.004347,
+      "Receiving objects:  70% (2817/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002014,
+      "Receiving objects:  70% (2830/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.002124,
+      "Receiving objects:  71% (2857/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.006783,
+      "Receiving objects:  72% (2897/4023), 14.98 MiB | 4.27 MiB/s   \r"
+    ],
+    [
+      0.004219,
+      "Receiving objects:  73% (2937/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.005911,
+      "Receiving objects:  74% (2978/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.002671,
+      "Receiving objects:  75% (3018/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.00453,
+      "Receiving objects:  76% (3058/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.000564,
+      "Receiving objects:  77% (3098/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.00593,
+      "Receiving objects:  78% (3138/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.000491,
+      "Receiving objects:  79% (3179/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001471,
+      "Receiving objects:  80% (3219/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001129,
+      "Receiving objects:  81% (3259/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001813,
+      "Receiving objects:  82% (3299/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001172,
+      "Receiving objects:  83% (3340/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.000327,
+      "Receiving objects:  84% (3380/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001124,
+      "Receiving objects:  85% (3420/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.005916,
+      "Receiving objects:  86% (3460/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001269,
+      "Receiving objects:  87% (3501/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.000414,
+      "Receiving objects:  88% (3541/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001112,
+      "Receiving objects:  89% (3581/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.001481,
+      "Receiving objects:  90% (3621/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.002661,
+      "Receiving objects:  91% (3661/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.000515,
+      "Receiving objects:  92% (3702/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.005191,
+      "Receiving objects:  93% (3742/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.003437,
+      "Receiving objects:  94% (3782/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.111472,
+      "Receiving objects:  95% (3822/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.125591,
+      "Receiving objects:  96% (3863/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.081634,
+      "Receiving objects:  97% (3903/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.004345,
+      "Receiving objects:  98% (3943/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.010516,
+      "Receiving objects:  99% (3983/4023), 17.20 MiB | 4.29 MiB/s   \r"
+    ],
+    [
+      0.012171,
+      "remote: Total 4023 (delta 1), reused 0 (delta 0), pack-reused 4019\u001b[K\r\n"
+    ],
+    [
+      0.000781,
+      "Receiving objects: 100% (4023/4023), 17.20 MiB | 4.29 MiB/s   \rReceiving objects: 100% (4023/4023), 19.03 MiB | 4.32 MiB/s, done.\r\n"
+    ],
+    [
+      0.000947,
+      "Resolving deltas:   0% (0/2367)   \r"
+    ],
+    [
+      0.000953,
+      "Resolving deltas:   1% (24/2367)   \r"
+    ],
+    [
+      0.000468,
+      "Resolving deltas:   2% (48/2367)   \r"
+    ],
+    [
+      0.002621,
+      "Resolving deltas:   3% (89/2367)   \r"
+    ],
+    [
+      0.000721,
+      "Resolving deltas:   4% (97/2367)   \r"
+    ],
+    [
+      0.001186,
+      "Resolving deltas:   5% (123/2367)   \r"
+    ],
+    [
+      0.000278,
+      "Resolving deltas:   6% (146/2367)   \r"
+    ],
+    [
+      9.2e-05,
+      "Resolving deltas:   7% (167/2367)   \r"
+    ],
+    [
+      0.000278,
+      "Resolving deltas:   8% (193/2367)   \r"
+    ],
+    [
+      0.000305,
+      "Resolving deltas:   9% (217/2367)   \r"
+    ],
+    [
+      0.000187,
+      "Resolving deltas:  10% (237/2367)   \r"
+    ],
+    [
+      0.000266,
+      "Resolving deltas:  11% (262/2367)   \r"
+    ],
+    [
+      8.9e-05,
+      "Resolving deltas:  12% (288/2367)   \r"
+    ],
+    [
+      0.000232,
+      "Resolving deltas:  13% (309/2367)   \r"
+    ],
+    [
+      0.000183,
+      "Resolving deltas:  14% (340/2367)   \r"
+    ],
+    [
+      0.000129,
+      "Resolving deltas:  15% (356/2367)   \r"
+    ],
+    [
+      9.8e-05,
+      "Resolving deltas:  16% (381/2367)   \r"
+    ],
+    [
+      9.1e-05,
+      "Resolving deltas:  17% (403/2367)   \r"
+    ],
+    [
+      0.000202,
+      "Resolving deltas:  20% (477/2367)   \r"
+    ],
+    [
+      0.000136,
+      "Resolving deltas:  22% (526/2367)   \r"
+    ],
+    [
+      0.000103,
+      "Resolving deltas:  23% (546/2367)   \r"
+    ],
+    [
+      0.000287,
+      "Resolving deltas:  25% (608/2367)   \r"
+    ],
+    [
+      0.000156,
+      "Resolving deltas:  26% (617/2367)   \r"
+    ],
+    [
+      0.000331,
+      "Resolving deltas:  27% (640/2367)   \r"
+    ],
+    [
+      0.00017,
+      "Resolving deltas:  28% (669/2367)   \r"
+    ],
+    [
+      9.8e-05,
+      "Resolving deltas:  29% (692/2367)   \r"
+    ],
+    [
+      4e-05,
+      "Resolving deltas:  30% (711/2367)   \r"
+    ],
+    [
+      0.000106,
+      "Resolving deltas:  31% (734/2367)   \r"
+    ],
+    [
+      0.000144,
+      "Resolving deltas:  32% (776/2367)   \r"
+    ],
+    [
+      0.000157,
+      "Resolving deltas:  34% (807/2367)   \r"
+    ],
+    [
+      0.00019,
+      "Resolving deltas:  35% (850/2367)   \r"
+    ],
+    [
+      0.000255,
+      "Resolving deltas:  36% (863/2367)   \r"
+    ],
+    [
+      0.00014,
+      "Resolving deltas:  37% (887/2367)   \r"
+    ],
+    [
+      9.8e-05,
+      "Resolving deltas:  38% (904/2367)   \r"
+    ],
+    [
+      0.000106,
+      "Resolving deltas:  39% (929/2367)   \r"
+    ],
+    [
+      9.7e-05,
+      "Resolving deltas:  40% (948/2367)   \r"
+    ],
+    [
+      9.2e-05,
+      "Resolving deltas:  41% (976/2367)   \r"
+    ],
+    [
+      0.000284,
+      "Resolving deltas:  43% (1035/2367)   \r"
+    ],
+    [
+      2.1e-05,
+      "Resolving deltas:  44% (1042/2367)   \r"
+    ],
+    [
+      0.000272,
+      "Resolving deltas:  45% (1073/2367)   \r"
+    ],
+    [
+      0.000164,
+      "Resolving deltas:  46% (1101/2367)   \r"
+    ],
+    [
+      0.000182,
+      "Resolving deltas:  47% (1130/2367)   \r"
+    ],
+    [
+      5.6e-05,
+      "Resolving deltas:  48% (1147/2367)   \r"
+    ],
+    [
+      0.000119,
+      "Resolving deltas:  49% (1168/2367)   \r"
+    ],
+    [
+      0.000351,
+      "Resolving deltas:  50% (1190/2367)   \r"
+    ],
+    [
+      0.000138,
+      "Resolving deltas:  51% (1216/2367)   \r"
+    ],
+    [
+      0.000165,
+      "Resolving deltas:  52% (1246/2367)   \r"
+    ],
+    [
+      0.000155,
+      "Resolving deltas:  53% (1255/2367)   \r"
+    ],
+    [
+      0.000228,
+      "Resolving deltas:  54% (1285/2367)   \r"
+    ],
+    [
+      0.000157,
+      "Resolving deltas:  55% (1309/2367)   \r"
+    ],
+    [
+      0.0001,
+      "Resolving deltas:  56% (1326/2367)   \r"
+    ],
+    [
+      0.000346,
+      "Resolving deltas:  59% (1410/2367)   \r"
+    ],
+    [
+      9.7e-05,
+      "Resolving deltas:  60% (1423/2367)   \r"
+    ],
+    [
+      0.00016,
+      "Resolving deltas:  61% (1458/2367)   \r"
+    ],
+    [
+      5e-05,
+      "Resolving deltas:  62% (1468/2367)   \r"
+    ],
+    [
+      0.00019,
+      "Resolving deltas:  63% (1512/2367)   \r"
+    ],
+    [
+      0.001435,
+      "Resolving deltas:  64% (1536/2367)   \r"
+    ],
+    [
+      0.000171,
+      "Resolving deltas:  65% (1553/2367)   \r"
+    ],
+    [
+      5e-05,
+      "Resolving deltas:  66% (1566/2367)   \r"
+    ],
+    [
+      9.3e-05,
+      "Resolving deltas:  67% (1587/2367)   \r"
+    ],
+    [
+      0.000103,
+      "Resolving deltas:  68% (1613/2367)   \r"
+    ],
+    [
+      0.000129,
+      "Resolving deltas:  69% (1634/2367)   \r"
+    ],
+    [
+      0.001196,
+      "Resolving deltas:  71% (1681/2367)   \r"
+    ],
+    [
+      0.000746,
+      "Resolving deltas:  73% (1733/2367)   \r"
+    ],
+    [
+      0.000216,
+      "Resolving deltas:  74% (1753/2367)   \r"
+    ],
+    [
+      0.000426,
+      "Resolving deltas:  76% (1805/2367)   \r"
+    ],
+    [
+      0.000255,
+      "Resolving deltas:  79% (1874/2367)   \r"
+    ],
+    [
+      0.002673,
+      "Resolving deltas:  80% (1913/2367)   \r"
+    ],
+    [
+      2.4e-05,
+      "Resolving deltas:  81% (1918/2367)   \r"
+    ],
+    [
+      0.000199,
+      "Resolving deltas:  83% (1976/2367)   \r"
+    ],
+    [
+      0.000364,
+      "Resolving deltas:  87% (2073/2367)   \r"
+    ],
+    [
+      3.5e-05,
+      "Resolving deltas:  88% (2084/2367)   \r"
+    ],
+    [
+      0.000191,
+      "Resolving deltas:  89% (2108/2367)   \r"
+    ],
+    [
+      8.2e-05,
+      "Resolving deltas:  90% (2132/2367)   \r"
+    ],
+    [
+      0.000105,
+      "Resolving deltas:  91% (2164/2367)   \r"
+    ],
+    [
+      0.000268,
+      "Resolving deltas:  93% (2217/2367)   \r"
+    ],
+    [
+      0.00314,
+      "Resolving deltas:  95% (2262/2367)   \r"
+    ],
+    [
+      6.5e-05,
+      "Resolving deltas:  96% (2278/2367)   \r"
+    ],
+    [
+      9.9e-05,
+      "Resolving deltas:  97% (2304/2367)   \r"
+    ],
+    [
+      0.000206,
+      "Resolving deltas:  98% (2323/2367)   \r"
+    ],
+    [
+      0.000671,
+      "Resolving deltas:  99% (2344/2367)   \r"
+    ],
+    [
+      0.052824,
+      "Resolving deltas: 100% (2367/2367)   \rResolving deltas: 100% (2367/2367), done.\r\n"
+    ],
+    [
+      0.101799,
+      "Downloading data/lm/lm.binary (1.6 GB)\r\n"
+    ],
+    [
+      2.186717,
+      "Checking out files:   6% (37/556)   \r"
+    ],
+    [
+      0.000142,
+      "Downloading data/lm/trie (44 MB)\r\n"
+    ],
+    [
+      1.119703,
+      "Checking out files:   6% (38/556)   \r"
+    ],
+    [
+      0.050535,
+      "Checking out files:   7% (39/556)   \r"
+    ],
+    [
+      0.00067,
+      "Checking out files:   8% (45/556)   \r"
+    ],
+    [
+      0.002008,
+      "Checking out files:   9% (51/556)   \r"
+    ],
+    [
+      0.00301,
+      "Checking out files:  10% (56/556)   \r"
+    ],
+    [
+      0.000286,
+      "Checking out files:  11% (62/556)   \r"
+    ],
+    [
+      0.000144,
+      "Checking out files:  12% (67/556)   \r"
+    ],
+    [
+      0.000268,
+      "Checking out files:  13% (73/556)   \r"
+    ],
+    [
+      0.000138,
+      "Checking out files:  14% (78/556)   \r"
+    ],
+    [
+      0.000216,
+      "Checking out files:  15% (84/556)   \r"
+    ],
+    [
+      0.000167,
+      "Checking out files:  16% (89/556)   \r"
+    ],
+    [
+      0.000291,
+      "Checking out files:  17% (95/556)   \r"
+    ],
+    [
+      0.000203,
+      "Checking out files:  18% (101/556)   \r"
+    ],
+    [
+      0.000218,
+      "Checking out files:  19% (106/556)   \r"
+    ],
+    [
+      9.9e-05,
+      "Checking out files:  20% (112/556)   \r"
+    ],
+    [
+      9.4e-05,
+      "Checking out files:  21% (117/556)   \r"
+    ],
+    [
+      0.000148,
+      "Checking out files:  22% (123/556)   \r"
+    ],
+    [
+      0.000143,
+      "Checking out files:  23% (128/556)   \r"
+    ],
+    [
+      0.000193,
+      "Checking out files:  24% (134/556)   \r"
+    ],
+    [
+      0.000229,
+      "Checking out files:  25% (139/556)   \r"
+    ],
+    [
+      0.00021,
+      "Checking out files:  26% (145/556)   \r"
+    ],
+    [
+      0.000239,
+      "Checking out files:  27% (151/556)   \r"
+    ],
+    [
+      0.000188,
+      "Checking out files:  28% (156/556)   \r"
+    ],
+    [
+      0.000151,
+      "Checking out files:  29% (162/556)   \r"
+    ],
+    [
+      0.000125,
+      "Checking out files:  30% (167/556)   \r"
+    ],
+    [
+      0.000539,
+      "Checking out files:  31% (173/556)   \r"
+    ],
+    [
+      0.000101,
+      "Checking out files:  32% (178/556)   \r"
+    ],
+    [
+      0.000189,
+      "Checking out files:  33% (184/556)   \r"
+    ],
+    [
+      0.000237,
+      "Checking out files:  34% (190/556)   \r"
+    ],
+    [
+      0.000142,
+      "Checking out files:  35% (195/556)   \r"
+    ],
+    [
+      8.5e-05,
+      "Checking out files:  36% (201/556)   \r"
+    ],
+    [
+      7.9e-05,
+      "Checking out files:  37% (206/556)   \r"
+    ],
+    [
+      4.5e-05,
+      "Checking out files:  38% (212/556)   \r"
+    ],
+    [
+      6.8e-05,
+      "Checking out files:  39% (217/556)   \r"
+    ],
+    [
+      0.000144,
+      "Checking out files:  40% (223/556)   \r"
+    ],
+    [
+      0.000112,
+      "Checking out files:  41% (228/556)   \r"
+    ],
+    [
+      0.000174,
+      "Checking out files:  42% (234/556)   \r"
+    ],
+    [
+      0.00011,
+      "Checking out files:  43% (240/556)   \r"
+    ],
+    [
+      0.000185,
+      "Checking out files:  44% (245/556)   \r"
+    ],
+    [
+      0.000144,
+      "Checking out files:  45% (251/556)   \r"
+    ],
+    [
+      0.000165,
+      "Checking out files:  46% (256/556)   \r"
+    ],
+    [
+      0.000158,
+      "Checking out files:  47% (262/556)   \r"
+    ],
+    [
+      0.000188,
+      "Checking out files:  48% (267/556)   \r"
+    ],
+    [
+      0.000234,
+      "Checking out files:  49% (273/556)   \r"
+    ],
+    [
+      0.00016,
+      "Checking out files:  50% (278/556)   \r"
+    ],
+    [
+      0.000259,
+      "Checking out files:  51% (284/556)   \r"
+    ],
+    [
+      9.1e-05,
+      "Checking out files:  52% (290/556)   \r"
+    ],
+    [
+      0.000183,
+      "Checking out files:  53% (295/556)   \r"
+    ],
+    [
+      0.000191,
+      "Checking out files:  54% (301/556)   \r"
+    ],
+    [
+      0.000157,
+      "Checking out files:  55% (306/556)   \r"
+    ],
+    [
+      0.000183,
+      "Checking out files:  56% (312/556)   \r"
+    ],
+    [
+      0.000329,
+      "Checking out files:  57% (317/556)   \r"
+    ],
+    [
+      0.00029,
+      "Checking out files:  58% (323/556)   \r"
+    ],
+    [
+      0.000334,
+      "Checking out files:  59% (329/556)   \r"
+    ],
+    [
+      0.000144,
+      "Checking out files:  60% (334/556)   \r"
+    ],
+    [
+      0.000237,
+      "Checking out files:  61% (340/556)   \r"
+    ],
+    [
+      0.000101,
+      "Checking out files:  62% (345/556)   \r"
+    ],
+    [
+      0.000215,
+      "Checking out files:  63% (351/556)   \r"
+    ],
+    [
+      0.000135,
+      "Checking out files:  64% (356/556)   \r"
+    ],
+    [
+      0.000122,
+      "Checking out files:  65% (362/556)   \r"
+    ],
+    [
+      0.000209,
+      "Checking out files:  66% (367/556)   \r"
+    ],
+    [
+      0.000141,
+      "Checking out files:  67% (373/556)   \r"
+    ],
+    [
+      0.000128,
+      "Checking out files:  68% (379/556)   \r"
+    ],
+    [
+      0.000138,
+      "Checking out files:  69% (384/556)   \r"
+    ],
+    [
+      0.00017,
+      "Checking out files:  70% (390/556)   \r"
+    ],
+    [
+      0.000202,
+      "Checking out files:  71% (395/556)   \r"
+    ],
+    [
+      0.00025,
+      "Checking out files:  72% (401/556)   \r"
+    ],
+    [
+      0.000136,
+      "Checking out files:  73% (406/556)   \r"
+    ],
+    [
+      0.000123,
+      "Checking out files:  74% (412/556)   \r"
+    ],
+    [
+      0.000115,
+      "Checking out files:  75% (417/556)   \r"
+    ],
+    [
+      0.000266,
+      "Checking out files:  76% (423/556)   \r"
+    ],
+    [
+      0.000154,
+      "Checking out files:  77% (429/556)   \r"
+    ],
+    [
+      0.000286,
+      "Checking out files:  78% (434/556)   \r"
+    ],
+    [
+      0.000497,
+      "Checking out files:  79% (440/556)   \r"
+    ],
+    [
+      0.002156,
+      "Checking out files:  80% (445/556)   \r"
+    ],
+    [
+      0.000545,
+      "Checking out files:  81% (451/556)   \r"
+    ],
+    [
+      0.00017,
+      "Checking out files:  82% (456/556)   \r"
+    ],
+    [
+      0.00012,
+      "Checking out files:  83% (462/556)   \r"
+    ],
+    [
+      0.000142,
+      "Checking out files:  84% (468/556)   \r"
+    ],
+    [
+      0.000124,
+      "Checking out files:  85% (473/556)   \r"
+    ],
+    [
+      9.6e-05,
+      "Checking out files:  86% (479/556)   \r"
+    ],
+    [
+      9.1e-05,
+      "Checking out files:  87% (484/556)   \r"
+    ],
+    [
+      6.7e-05,
+      "Checking out files:  88% (490/556)   \r"
+    ],
+    [
+      5.6e-05,
+      "Checking out files:  89% (495/556)   \r"
+    ],
+    [
+      6.5e-05,
+      "Checking out files:  90% (501/556)   \r"
+    ],
+    [
+      6.2e-05,
+      "Checking out files:  91% (506/556)   \r"
+    ],
+    [
+      6.6e-05,
+      "Checking out files:  92% (512/556)   \r"
+    ],
+    [
+      6.6e-05,
+      "Checking out files:  93% (518/556)   \r"
+    ],
+    [
+      7.2e-05,
+      "Checking out files:  94% (523/556)   \r"
+    ],
+    [
+      7.1e-05,
+      "Checking out files:  95% (529/556)   \r"
+    ],
+    [
+      6.7e-05,
+      "Checking out files:  96% (534/556)   \r"
+    ],
+    [
+      0.000129,
+      "Checking out files:  97% (540/556)   \r"
+    ],
+    [
+      0.000138,
+      "Checking out files:  98% (545/556)   \r"
+    ],
+    [
+      0.000244,
+      "Checking out files:  99% (551/556)   \r"
+    ],
+    [
+      0.000165,
+      "Checking out files: 100% (556/556)   \r"
+    ],
+    [
+      2.0,
+      "Checking out files: 100% (556/556), done.\r\n"
+    ],
+    [
+      0.009497,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.749599,
+      "c"
+    ],
+    [
+      0.19184,
+      "d"
+    ],
+    [
+      0.11206,
+      " "
+    ],
+    [
+      0.343923,
+      "D"
+    ],
+    [
+      0.272059,
+      "e"
+    ],
+    [
+      0.135931,
+      "e"
+    ],
+    [
+      0.645791,
+      "pSpeech/"
+    ],
+    [
+      0.5143,
+      "\r\n"
+    ],
+    [
+      0.000698,
+      "\u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      0.847371,
+      "l"
+    ],
+    [
+      0.135669,
+      "s"
+    ],
+    [
+      0.480055,
+      "\r\n"
+    ],
+    [
+      0.003006,
+      "\u001b[0m\u001b[01;34mbin\u001b[0m                LICENSE            \u001b[01;32mtc-benchmark-tests.sh\u001b[0m    tc-python-tests.sh\r\n\u001b[01;34mdata\u001b[0m               \u001b[01;34mnative_client\u001b[0m      tc-brew-tests.sh         \u001b[01;32mtc-schedule.sh\u001b[0m\r\n\u001b[01;32mDeepSpeech.py\u001b[0m      README.md          tc-cpp-ds-tests-prod.sh  \u001b[01;32mtc-tests-utils.sh\u001b[0m\r\n\u001b[01;34mdoc\u001b[0m                README.website.md  tc-cpp-ds-tests.sh       tc-train-tests.sh\r\n\u001b[01;34mimages\u001b[0m             requirements.txt   tc-node-tests-prod.sh    \u001b[01;34mutil\u001b[0m\r\n"
+    ],
+    [
+      5.6e-05,
+      "index.htm          \u001b[01;34mresources\u001b[0m          tc-node-tests.sh\r\nISSUE_TEMPLATE.md  \u001b[01;34mtaskcluster\u001b[0m        tc-python-tests-prod.sh\r\n"
+    ],
+    [
+      0.001043,
+      "\u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      4.716228,
+      "s"
+    ],
+    [
+      0.127847,
+      "o"
+    ],
+    [
+      0.232196,
+      "u"
+    ],
+    [
+      0.151872,
+      "r"
+    ],
+    [
+      0.255991,
+      "c"
+    ],
+    [
+      0.207955,
+      "e"
+    ],
+    [
+      0.320033,
+      " "
+    ],
+    [
+      1.192118,
+      "."
+    ],
+    [
+      0.111965,
+      "."
+    ],
+    [
+      0.319819,
+      "/"
+    ],
+    [
+      0.448173,
+      "v"
+    ],
+    [
+      0.231936,
+      "e"
+    ],
+    [
+      0.11201,
+      "n"
+    ],
+    [
+      0.254395,
+      "v/"
+    ],
+    [
+      1.377791,
+      "b"
+    ],
+    [
+      0.151819,
+      "i"
+    ],
+    [
+      0.231987,
+      "n"
+    ],
+    [
+      0.423914,
+      "/"
+    ],
+    [
+      0.464256,
+      "a"
+    ],
+    [
+      0.294394,
+      "c"
+    ],
+    [
+      0.249436,
+      "t"
+    ],
+    [
+      0.135977,
+      "i"
+    ],
+    [
+      0.254425,
+      "\u0007vate"
+    ],
+    [
+      0.945763,
+      "\r\n"
+    ],
+    [
+      0.006497,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.865449,
+      "p"
+    ],
+    [
+      0.280047,
+      "i"
+    ],
+    [
+      0.207854,
+      "p"
+    ],
+    [
+      0.175993,
+      " "
+    ],
+    [
+      0.151905,
+      "i"
+    ],
+    [
+      0.208144,
+      "n"
+    ],
+    [
+      0.191914,
+      "s"
+    ],
+    [
+      0.096049,
+      "t"
+    ],
+    [
+      0.15192,
+      "a"
+    ],
+    [
+      0.288203,
+      "l"
+    ],
+    [
+      0.151893,
+      "l"
+    ],
+    [
+      0.176176,
+      " "
+    ],
+    [
+      0.231944,
+      "-"
+    ],
+    [
+      0.230864,
+      "r"
+    ],
+    [
+      0.321181,
+      " "
+    ],
+    [
+      0.807977,
+      "r"
+    ],
+    [
+      0.191897,
+      "e"
+    ],
+    [
+      0.536056,
+      "q"
+    ],
+    [
+      0.302644,
+      "uirements.txt "
+    ],
+    [
+      1.153398,
+      "\r\n"
+    ],
+    [
+      0.430578,
+      "Collecting pandas (from -r requirements.txt (line 1))\r\n"
+    ],
+    [
+      0.817454,
+      "  Using cached pandas-0.22.0-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.451657,
+      "Collecting progressbar2 (from -r requirements.txt (line 2))\r\n"
+    ],
+    [
+      0.054114,
+      "  Using cached progressbar2-3.34.3-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.035941,
+      "Collecting python-utils (from -r requirements.txt (line 3))\r\n"
+    ],
+    [
+      0.036591,
+      "  Using cached python_utils-2.2.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.030244,
+      "Collecting tensorflow==1.4.0 (from -r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.80748,
+      "  Using cached tensorflow-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.955937,
+      "Collecting numpy (from -r requirements.txt (line 5))\r\n"
+    ],
+    [
+      0.464991,
+      "  Using cached numpy-1.14.0-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.339825,
+      "Collecting matplotlib (from -r requirements.txt (line 6))\r\n"
+    ],
+    [
+      0.349416,
+      "  Using cached matplotlib-2.1.2-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.241022,
+      "Collecting scipy (from -r requirements.txt (line 7))\r\n"
+    ],
+    [
+      0.912163,
+      "  Using cached scipy-1.0.0-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.802132,
+      "Collecting paramiko>=2.1 (from -r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.065535,
+      "  Using cached paramiko-2.4.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.052069,
+      "Collecting pysftp (from -r requirements.txt (line 9))\r\n"
+    ],
+    [
+      0.06425,
+      "Collecting sox (from -r requirements.txt (line 10))\r\n"
+    ],
+    [
+      0.162407,
+      "  Using cached sox-1.3.2-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.042933,
+      "Collecting python_speech_features (from -r requirements.txt (line 11))\r\n"
+    ],
+    [
+      0.186826,
+      "Collecting pyxdg (from -r requirements.txt (line 12))\r\n"
+    ],
+    [
+      0.063293,
+      "Collecting bs4 (from -r requirements.txt (line 13))\r\n"
+    ],
+    [
+      0.062323,
+      "Collecting six (from -r requirements.txt (line 14))\r\n"
+    ],
+    [
+      0.055811,
+      "  Using cached six-1.11.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.034607,
+      "Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))\r\n"
+    ],
+    [
+      0.176513,
+      "  Using cached pytz-2017.3-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.06394,
+      "Collecting python-dateutil (from pandas->-r requirements.txt (line 1))\r\n"
+    ],
+    [
+      0.041638,
+      "  Using cached python_dateutil-2.6.1-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.035318,
+      "Collecting tensorflow-tensorboard<0.5.0,>=0.4.0rc1 (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.05949,
+      "  Using cached tensorflow_tensorboard-0.4.0-py2-none-any.whl\r\n"
+    ],
+    [
+      0.04974,
+      "Collecting mock>=2.0.0 (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.04088,
+      "  Using cached mock-2.0.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.04163,
+      "Collecting enum34>=1.1.6 (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.041148,
+      "  Using cached enum34-1.1.6-py2-none-any.whl\r\n"
+    ],
+    [
+      0.032454,
+      "Collecting protobuf>=3.3.0 (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.151547,
+      "  Using cached protobuf-3.5.1-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.126713,
+      "Requirement already satisfied: wheel in /home/demo/venv/lib/python2.7/site-packages (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.020199,
+      "Collecting backports.weakref>=1.0rc1 (from tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.033792,
+      "  Using cached backports.weakref-1.0.post1-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.031128,
+      "Collecting cycler>=0.10 (from matplotlib->-r requirements.txt (line 6))\r\n"
+    ],
+    [
+      0.032736,
+      "  Using cached cycler-0.10.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.033102,
+      "Collecting backports.functools-lru-cache (from matplotlib->-r requirements.txt (line 6))\r\n"
+    ],
+    [
+      0.035159,
+      "  Using cached backports.functools_lru_cache-1.4-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.035375,
+      "Collecting subprocess32 (from matplotlib->-r requirements.txt (line 6))\r\n"
+    ],
+    [
+      0.074328,
+      "Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 (from matplotlib->-r requirements.txt (line 6))\r\n"
+    ],
+    [
+      0.075072,
+      "  Using cached pyparsing-2.2.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.034519,
+      "Collecting cryptography>=1.5 (from paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.260573,
+      "  Using cached cryptography-2.1.4-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.076635,
+      "Collecting pynacl>=1.0.1 (from paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.063786,
+      "  Using cached PyNaCl-1.2.1-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.04733,
+      "Collecting pyasn1>=0.1.7 (from paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.076569,
+      "  Using cached pyasn1-0.4.2-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.035596,
+      "Collecting bcrypt>=3.1.3 (from paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.091843,
+      "  Using cached bcrypt-3.1.4-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.03637,
+      "Collecting beautifulsoup4 (from bs4->-r requirements.txt (line 13))\r\n"
+    ],
+    [
+      0.041108,
+      "  Using cached beautifulsoup4-4.6.0-py2-none-any.whl\r\n"
+    ],
+    [
+      0.033439,
+      "Collecting bleach==1.5.0 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.04071,
+      "  Using cached bleach-1.5.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.031834,
+      "Collecting futures>=3.1.1; python_version < \"3.2\" (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.039524,
+      "  Using cached futures-3.2.0-py2-none-any.whl\r\n"
+    ],
+    [
+      0.030852,
+      "Collecting html5lib==0.9999999 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.090931,
+      "Collecting werkzeug>=0.11.10 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.052326,
+      "  Using cached Werkzeug-0.14.1-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.040688,
+      "Collecting markdown>=2.6.8 (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.044644,
+      "  Using cached Markdown-2.6.11-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.032652,
+      "Collecting funcsigs>=1; python_version < \"3.3\" (from mock>=2.0.0->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.034708,
+      "  Using cached funcsigs-1.0.2-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.032077,
+      "Collecting pbr>=0.11 (from mock>=2.0.0->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.075161,
+      "  Using cached pbr-3.1.1-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.020899,
+      "Requirement already satisfied: setuptools in /home/demo/venv/lib/python2.7/site-packages (from protobuf>=3.3.0->tensorflow==1.4.0->-r requirements.txt (line 4))\r\n"
+    ],
+    [
+      0.0282,
+      "Collecting cffi>=1.7; platform_python_implementation != \"PyPy\" (from cryptography>=1.5->paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.167978,
+      "  Using cached cffi-1.11.4-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      0.038387,
+      "Collecting idna>=2.1 (from cryptography>=1.5->paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.037292,
+      "  Using cached idna-2.6-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.030894,
+      "Collecting asn1crypto>=0.21.0 (from cryptography>=1.5->paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.041211,
+      "  Using cached asn1crypto-0.24.0-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.033001,
+      "Collecting ipaddress; python_version < \"3\" (from cryptography>=1.5->paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.092335,
+      "Collecting pycparser (from cffi>=1.7; platform_python_implementation != \"PyPy\"->cryptography>=1.5->paramiko>=2.1->-r requirements.txt (line 8))\r\n"
+    ],
+    [
+      0.05516,
+      "Installing collected packages: pytz, six, python-dateutil, numpy, pandas, python-utils, progressbar2, html5lib, bleach, protobuf, futures, werkzeug, markdown, tensorflow-tensorboard, funcsigs, pbr, mock, enum34, backports.weakref, tensorflow, cycler, backports.functools-lru-cache, subprocess32, pyparsing, matplotlib, scipy, pycparser, cffi, idna, asn1crypto, ipaddress, cryptography, pynacl, pyasn1, bcrypt, paramiko, pysftp, sox, python-speech-features, pyxdg, beautifulsoup4, bs4\r\n"
+    ],
+    [
+      6.262176,
+      "Successfully installed asn1crypto-0.24.0 backports.functools-lru-cache-1.4 backports.weakref-1.0.post1 bcrypt-3.1.4 beautifulsoup4-4.6.0 bleach-1.5.0 bs4-0.0.1 cffi-1.11.4 cryptography-2.1.4 cycler-0.10.0 enum34-1.1.6 funcsigs-1.0.2 futures-3.2.0 html5lib-0.9999999 idna-2.6 ipaddress-1.0.19 markdown-2.6.11 matplotlib-2.1.2 mock-2.0.0 numpy-1.14.0 pandas-0.22.0 paramiko-2.4.0 pbr-3.1.1 progressbar2-3.34.3 protobuf-3.5.1 pyasn1-0.4.2 pycparser-2.18 pynacl-1.2.1 pyparsing-2.2.0 pysftp-0.2.9 python-dateutil-2.6.1 python-speech-features-0.6 python-utils-2.2.0 pytz-2017.3 pyxdg-0.25 scipy-1.0.0 six-1.11.0 sox-1.3.2 subprocess32-3.2.7 tensorflow-1.4.0 tensorflow-tensorboard-0.4.0 werkzeug-0.14.1\r\n"
+    ],
+    [
+      0.219047,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.97432,
+      "."
+    ],
+    [
+      0.383799,
+      "/"
+    ],
+    [
+      0.463855,
+      "D"
+    ],
+    [
+      0.280161,
+      "e"
+    ],
+    [
+      0.111947,
+      "e"
+    ],
+    [
+      0.296363,
+      "pSpeech.py "
+    ],
+    [
+      1.463665,
+      "-"
+    ],
+    [
+      0.103986,
+      "-"
+    ],
+    [
+      0.320125,
+      "h"
+    ],
+    [
+      0.271972,
+      "e"
+    ],
+    [
+      0.175926,
+      "l"
+    ],
+    [
+      0.246145,
+      "p"
+    ],
+    [
+      0.809974,
+      "\r\n"
+    ],
+    [
+      0.631322,
+      "usage: DeepSpeech.py [-h] [--train_files TRAIN_FILES] [--dev_files DEV_FILES]\r\n                     [--test_files TEST_FILES] [--fulltrace [FULLTRACE]]\r\n                     [--nofulltrace] [--ps_hosts PS_HOSTS]\r\n                     [--worker_hosts WORKER_HOSTS] [--job_name JOB_NAME]\r\n                     [--task_index TASK_INDEX] [--replicas REPLICAS]\r\n                     [--replicas_to_agg REPLICAS_TO_AGG]\r\n                     [--coord_retries COORD_RETRIES] [--coord_host COORD_HOST]\r\n                     [--coord_port COORD_PORT]\r\n                     [--iters_per_worker ITERS_PER_WORKER] [--train [TRAIN]]\r\n                     [--notrain] [--test [TEST]] [--notest] [--epoch EPOCH]\r\n                     [--use_warpctc [USE_WARPCTC]] [--nouse_warpctc]\r\n                     [--dropout_rate DROPOUT_RATE]\r\n                     [--dropout_rate2 DROPOUT_RATE2]\r\n                     [--dropout_rate3 DROPOUT_RATE3]\r\n                     [--dropout_rate4 DROPOUT_RATE4]\r\n                     [--dropout_rate5 DROP"
+    ],
+    [
+      1.6e-05,
+      "OUT_RATE5]\r\n                     [--dropout_rate6 DROPOUT_RATE6] [--relu_clip RELU_CLIP]\r\n                     [--beta1 BETA1] [--beta2 BETA2] [--epsilon EPSILON]\r\n                     [--learning_rate LEARNING_RATE]\r\n                     [--train_batch_size TRAIN_BATCH_SIZE]\r\n                     [--dev_batch_size DEV_BATCH_SIZE]\r\n                     [--test_batch_size TEST_BATCH_SIZE]\r\n                     [--limit_train LIMIT_TRAIN] [--limit_dev LIMIT_DEV]\r\n                     [--limit_test LIMIT_TEST] [--display_step DISPLAY_STEP]\r\n                     [--validation_step VALIDATION_STEP]\r\n                     [--checkpoint_dir CHECKPOINT_DIR]\r\n                     [--checkpoint_secs CHECKPOINT_SECS]\r\n                     [--max_to_keep MAX_TO_KEEP] [--export_dir EXPORT_DIR]\r\n                     [--export_version EXPORT_VERSION]\r\n                     [--remove_export [REMOVE_EXPORT]] [--noremove_export]\r\n                     [--use_seq_length [USE_SEQ_LENGTH]] [--nouse_seq_length]\r\n                     "
+    ],
+    [
+      7e-06,
+      "[--log_level LOG_LEVEL] [--log_traffic [LOG_TRAFFIC]]\r\n                     [--nolog_traffic] [--wer_log_pattern WER_LOG_PATTERN]\r\n                     [--log_placement [LOG_PLACEMENT]] [--nolog_placement]\r\n                     [--report_count REPORT_COUNT] [--summary_dir SUMMARY_DIR]\r\n                     [--summary_secs SUMMARY_SECS] [--n_hidden N_HIDDEN]\r\n                     [--random_seed RANDOM_SEED]\r\n                     [--default_stddev DEFAULT_STDDEV]\r\n                     [--early_stop [EARLY_STOP]] [--noearly_stop]\r\n                     [--earlystop_nsteps EARLYSTOP_NSTEPS]\r\n                     [--estop_mean_thresh ESTOP_MEAN_THRESH]\r\n                     [--estop_std_thresh ESTOP_STD_THRESH]\r\n                     [--decoder_library_path DECODER_LIBRARY_PATH]\r\n                     [--alphabet_config_path ALPHABET_CONFIG_PATH]\r\n                     [--lm_binary_path LM_BINARY_PATH]\r\n                     [--lm_trie_path LM_TRIE_PATH] [--beam_width BEAM_WIDTH]\r\n                     [--lm_weight LM_W"
+    ],
+    [
+      7e-06,
+      "EIGHT]\r\n                     [--word_count_weight WORD_COUNT_WEIGHT]\r\n                     [--valid_word_count_weight VALID_WORD_COUNT_WEIGHT]\r\n                     [--one_shot_infer ONE_SHOT_INFER]\r\n                     [--initialize_from_frozen_model INITIALIZE_FROM_FROZEN_MODEL]\r\n                     [--b1_stddev B1_STDDEV] [--h1_stddev H1_STDDEV]\r\n                     [--b2_stddev B2_STDDEV] [--h2_stddev H2_STDDEV]\r\n                     [--b3_stddev B3_STDDEV] [--h3_stddev H3_STDDEV]\r\n                     [--b5_stddev B5_STDDEV] [--h5_stddev H5_STDDEV]\r\n                     [--b6_stddev B6_STDDEV] [--h6_stddev H6_STDDEV]\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --train_files TRAIN_FILES\r\n                        comma separated list of files specifying the dataset\r\n                        used for training. multiple files will get merged\r\n  --dev_files DEV_FILES\r\n                        comma separated list of files specifying the dataset\r\n                        u"
+    ],
+    [
+      6e-06,
+      "sed for validation. multiple files will get merged\r\n  --test_files TEST_FILES\r\n                        comma separated list of files specifying the dataset\r\n                        used for testing. multiple files will get merged\r\n  --fulltrace [FULLTRACE]\r\n                        if full trace debug info should be generated during\r\n                        training\r\n  --nofulltrace\r\n  --ps_hosts PS_HOSTS   parameter servers - comma separated list of\r\n                        hostname:port pairs\r\n  --worker_hosts WORKER_HOSTS\r\n                        workers - comma separated list of hostname:port pairs\r\n  --job_name JOB_NAME   job name - one of localhost (default), worker, ps\r\n  --task_index TASK_INDEX\r\n                        index of task within the job - worker with index 0\r\n                        will be the chief\r\n  --replicas REPLICAS   total number of replicas - if negative, its absolute\r\n                        value is multiplied by the number of workers\r\n  --replicas_to_agg REPLICAS_TO_AGG\r\n        "
+    ],
+    [
+      5e-06,
+      "                number of replicas to aggregate - if negative, its\r\n                        absolute value is multiplied by the number of workers\r\n  --coord_retries COORD_RETRIES\r\n                        number of tries of workers connecting to training\r\n                        coordinator before failing\r\n  --coord_host COORD_HOST\r\n                        coordination server host\r\n  --coord_port COORD_PORT\r\n                        coordination server port\r\n  --iters_per_worker ITERS_PER_WORKER\r\n                        number of train or inference iterations per worker\r\n                        before results are sent back to coordinator\r\n  --train [TRAIN]       whether to train the network\r\n  --notrain\r\n  --test [TEST]         whether to test the network\r\n  --notest\r\n  --epoch EPOCH         target epoch to train - if negative, the absolute\r\n                        number of additional epochs will be trained\r\n  --use_warpctc [USE_WARPCTC]\r\n                        whether to use GPU bound Warp-CTC\r\n  --nouse_war"
+    ],
+    [
+      7e-06,
+      "pctc\r\n  --dropout_rate DROPOUT_RATE\r\n                        dropout rate for feedforward layers\r\n  --dropout_rate2 DROPOUT_RATE2\r\n                        dropout rate for layer 2 - defaults to dropout_rate\r\n  --dropout_rate3 DROPOUT_RATE3\r\n                        dropout rate for layer 3 - defaults to dropout_rate\r\n  --dropout_rate4 DROPOUT_RATE4\r\n                        dropout rate for layer 4 - defaults to 0.0\r\n  --dropout_rate5 DROPOUT_RATE5\r\n                        dropout rate for layer 5 - defaults to 0.0\r\n  --dropout_rate6 DROPOUT_RATE6\r\n                        dropout rate for layer 6 - defaults to dropout_rate\r\n  --relu_clip RELU_CLIP\r\n                        ReLU clipping value for non-recurrant layers\r\n  --beta1 BETA1         beta 1 parameter of Adam optimizer\r\n  --beta2 BETA2         beta 2 parameter of Adam optimizer\r\n  --epsilon EPSILON     epsilon parameter of Adam optimizer\r\n  --learning_rate LEARNING_RATE\r\n                        learning rate of Adam optimizer\r\n  --train_batch_size TRAIN_B"
+    ],
+    [
+      6e-06,
+      "ATCH_SIZE\r\n                        number of elements in a training batch\r\n  --dev_batch_size DEV_BATCH_SIZE\r\n                        number of elements in a validation batch\r\n  --test_batch_size TEST_BATCH_SIZE\r\n                        number of elements in a test batch\r\n  --limit_train LIMIT_TRAIN\r\n                        maximum number of elements to use from train set - 0\r\n                        means no limit\r\n  --limit_dev LIMIT_DEV\r\n                        maximum number of elements to use from validation set-\r\n                        0 means no limit\r\n  --limit_test LIMIT_TEST\r\n                        maximum number of elements to use from test set- 0\r\n                        means no limit\r\n  --display_step DISPLAY_STEP\r\n                        number of epochs we cycle through before displaying\r\n                        detailed progress - 0 means no progress display\r\n  --validation_step VALIDATION_STEP\r\n                        number of epochs we cycle through before validating\r\n                   "
+    ],
+    [
+      6e-06,
+      "     the model - a detailed progress report is dependent on\r\n                        \"--display_step\" - 0 means no validation steps\r\n  --checkpoint_dir CHECKPOINT_DIR\r\n                        directory in which checkpoints are stored - defaults\r\n                        to directory \"deepspeech/checkpoints\" within user's\r\n                        data home specified by the XDG Base Directory\r\n                        Specification\r\n  --checkpoint_secs CHECKPOINT_SECS\r\n                        checkpoint saving interval in seconds\r\n  --max_to_keep MAX_TO_KEEP\r\n                        number of checkpoint files to keep - default value is\r\n                        5\r\n  --export_dir EXPORT_DIR\r\n                        directory in which exported models are stored - if\r\n                        omitted, the model won't get exported\r\n  --export_version EXPORT_VERSION\r\n                        version number of the exported model\r\n  --remove_export [REMOVE_EXPORT]\r\n                        whether to remove old exported mod"
+    ],
+    [
+      6e-06,
+      "els\r\n  --noremove_export\r\n  --use_seq_length [USE_SEQ_LENGTH]\r\n                        have sequence_length in the exported graph (will make\r\n                        tfcompile unhappy)\r\n  --nouse_seq_length\r\n  --log_level LOG_LEVEL\r\n                        log level for console logs - 0: INFO, 1: WARN, 2:\r\n                        ERROR, 3: FATAL\r\n  --log_traffic [LOG_TRAFFIC]\r\n                        log cluster transaction and traffic information during\r\n                        debug logging\r\n  --nolog_traffic\r\n  --wer_log_pattern WER_LOG_PATTERN\r\n                        pattern for machine readable global logging of WER\r\n                        progress; has to contain %s, %s and %f for the set\r\n                        name, the date and the float respectively; example:\r\n                        \"GLOBAL LOG: logwer('12ade231', %s, %s, %f)\" would\r\n                        result in some entry like \"GLOBAL LOG:\r\n                        logwer('12ade231', 'train',\r\n                        '2017-05-18T03:09:48-07"
+    ],
+    [
+      8e-06,
+      "00', 0.05)\"; if omitted\r\n                        (default), there will be no logging\r\n  --log_placement [LOG_PLACEMENT]\r\n                        whether to log device placement of the operators to\r\n                        the console\r\n  --nolog_placement\r\n  --report_count REPORT_COUNT\r\n                        number of phrases with lowest WER (best matching) to\r\n                        print out during a WER report\r\n  --summary_dir SUMMARY_DIR\r\n                        target directory for TensorBoard summaries - defaults\r\n                        to directory \"deepspeech/summaries\" within user's data\r\n                        home specified by the XDG Base Directory Specification\r\n  --summary_secs SUMMARY_SECS\r\n                        interval in seconds for saving TensorBoard summaries -\r\n                        if 0, no summaries will be written\r\n  --n_hidden N_HIDDEN   layer width to use when initialising layers\r\n  --random_seed RANDOM_SEED\r\n                        default random seed that is used to initial"
+    ],
+    [
+      6e-06,
+      "ize\r\n                        variables\r\n  --default_stddev DEFAULT_STDDEV\r\n                        default standard deviation to use when initialising\r\n                        weights and biases\r\n  --early_stop [EARLY_STOP]\r\n                        enable early stopping mechanism over validation\r\n                        dataset. Make sure that dev FLAG is enabled for this\r\n                        to work\r\n  --noearly_stop\r\n  --earlystop_nsteps EARLYSTOP_NSTEPS\r\n                        number of steps to consider for early stopping. Loss\r\n                        is not stored in the checkpoint so when checkpoint is\r\n                        revived it starts the loss calculation from start at\r\n                        that point\r\n  --estop_mean_thresh ESTOP_MEAN_THRESH\r\n                        mean threshold for loss to determine the condition if\r\n                        early stopping is required\r\n  --estop_std_thresh ESTOP_STD_THRESH\r\n                        standard deviation threshold for loss to determine t"
+    ],
+    [
+      5e-06,
+      "he\r\n                        condition if early stopping is required\r\n  --decoder_library_path DECODER_LIBRARY_PATH\r\n                        path to the libctc_decoder_with_kenlm.so library\r\n                        containing the decoder implementation.\r\n  --alphabet_config_path ALPHABET_CONFIG_PATH\r\n                        path to the configuration file specifying the alphabet\r\n                        used by the network. See the comment in\r\n                        data/alphabet.txt for a description of the format.\r\n  --lm_binary_path LM_BINARY_PATH\r\n                        path to the language model binary file created with\r\n                        KenLM\r\n  --lm_trie_path LM_TRIE_PATH\r\n                        path to the language model trie file created with\r\n                        native_client/generate_trie\r\n  --beam_width BEAM_WIDTH\r\n                        beam width used in the CTC decoder when building\r\n                        candidate transcriptions\r\n  --lm_weight LM_WEIGHT\r\n                        "
+    ],
+    [
+      5e-06,
+      "the alpha hyperparameter of the CTC decoder. Language\r\n                        Model weight.\r\n  --word_count_weight WORD_COUNT_WEIGHT\r\n                        the beta hyperparameter of the CTC decoder. Word\r\n                        insertion weight (penalty).\r\n  --valid_word_count_weight VALID_WORD_COUNT_WEIGHT\r\n                        valid word insertion weight. This is used to lessen\r\n                        the word insertion penalty when the inserted word is\r\n                        part of the vocabulary.\r\n  --one_shot_infer ONE_SHOT_INFER\r\n                        one-shot inference mode: specify a wav file and the\r\n                        script will load the checkpoint and perform inference\r\n                        on it. Disables training, testing and exporting.\r\n  --initialize_from_frozen_model INITIALIZE_FROM_FROZEN_MODEL\r\n                        path to frozen model to initialize from. This behaves\r\n                        like a checkpoint, loading the weights from the frozen\r\n                  "
+    ],
+    [
+      6e-06,
+      "      model and starting training with those weights. The\r\n                        optimizer parameters aren't restored, so remember to\r\n                        adjust the learning rate.\r\n  --b1_stddev B1_STDDEV\r\n                        standard deviation to use when initialising b1\r\n  --h1_stddev H1_STDDEV\r\n                        standard deviation to use when initialising h1\r\n  --b2_stddev B2_STDDEV\r\n                        standard deviation to use when initialising b2\r\n  --h2_stddev H2_STDDEV\r\n                        standard deviation to use when initialising h2\r\n  --b3_stddev B3_STDDEV\r\n                        standard deviation to use when initialising b3\r\n  --h3_stddev H3_STDDEV\r\n                        standard deviation to use when initialising h3\r\n  --b5_stddev B5_STDDEV\r\n                        standard deviation to use when initialising b5\r\n  --h5_stddev H5_STDDEV\r\n                        standard deviation to use when initialising h5\r\n  --b6_stddev B6_STDDEV\r\n                        standard de"
+    ],
+    [
+      6e-06,
+      "viation to use when initialising b6\r\n  --h6_stddev H6_STDDEV\r\n                        standard deviation to use when initialising h6\r\n"
+    ],
+    [
+      0.066366,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ]
+  ]
+}

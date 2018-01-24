@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "width": 100,
+  "height": 25,
+  "duration": 13038.626446,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.019338,
+      "\u001b]0;demo@tubuntu: ~\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.286353,
+      "c"
+    ],
+    [
+      0.167711,
+      "d"
+    ],
+    [
+      0.112046,
+      " "
+    ],
+    [
+      0.303987,
+      "D"
+    ],
+    [
+      0.232002,
+      "e"
+    ],
+    [
+      0.151851,
+      "e"
+    ],
+    [
+      0.262018,
+      "pSpeech/"
+    ],
+    [
+      0.658041,
+      "\r\n"
+    ],
+    [
+      0.000757,
+      "\u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      2.775361,
+      "s"
+    ],
+    [
+      0.175986,
+      "o"
+    ],
+    [
+      0.248071,
+      "u"
+    ],
+    [
+      0.111759,
+      "r"
+    ],
+    [
+      0.215998,
+      "c"
+    ],
+    [
+      0.208034,
+      "e"
+    ],
+    [
+      0.136008,
+      " "
+    ],
+    [
+      0.704424,
+      "."
+    ],
+    [
+      0.127667,
+      "."
+    ],
+    [
+      0.359926,
+      "/"
+    ],
+    [
+      1.43214,
+      "v"
+    ],
+    [
+      0.271941,
+      "e"
+    ],
+    [
+      0.12809,
+      "n"
+    ],
+    [
+      0.182328,
+      "v/"
+    ],
+    [
+      0.737686,
+      "b"
+    ],
+    [
+      0.151929,
+      "i"
+    ],
+    [
+      0.231874,
+      "n"
+    ],
+    [
+      0.118468,
+      "/"
+    ],
+    [
+      0.721676,
+      "a"
+    ],
+    [
+      0.295838,
+      "c"
+    ],
+    [
+      0.151958,
+      "t"
+    ],
+    [
+      0.174572,
+      "\u0007ivate"
+    ],
+    [
+      0.26554,
+      "\r\n"
+    ],
+    [
+      0.006239,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.497982,
+      "m"
+    ],
+    [
+      0.279921,
+      "k"
+    ],
+    [
+      0.272094,
+      "d"
+    ],
+    [
+      0.1119,
+      "i"
+    ],
+    [
+      0.151924,
+      "r"
+    ],
+    [
+      0.152003,
+      " "
+    ],
+    [
+      0.33599,
+      "."
+    ],
+    [
+      0.127937,
+      "."
+    ],
+    [
+      0.447926,
+      "/"
+    ],
+    [
+      1.096292,
+      "C"
+    ],
+    [
+      0.728043,
+      "V"
+    ],
+    [
+      0.767932,
+      "\r\n"
+    ],
+    [
+      0.003981,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.499846,
+      "b"
+    ],
+    [
+      0.136117,
+      "i"
+    ],
+    [
+      0.311926,
+      "n"
+    ],
+    [
+      0.503923,
+      "/"
+    ],
+    [
+      0.463965,
+      "i"
+    ],
+    [
+      0.192169,
+      "m"
+    ],
+    [
+      0.239882,
+      "p"
+    ],
+    [
+      0.168113,
+      "o"
+    ],
+    [
+      0.127965,
+      "r"
+    ],
+    [
+      0.215989,
+      "t"
+    ],
+    [
+      0.624021,
+      "_"
+    ],
+    [
+      0.303894,
+      "c"
+    ],
+    [
+      0.400496,
+      "v.py "
+    ],
+    [
+      1.29304,
+      "."
+    ],
+    [
+      0.130477,
+      "."
+    ],
+    [
+      0.343947,
+      "/"
+    ],
+    [
+      0.552027,
+      "C"
+    ],
+    [
+      0.352022,
+      "V"
+    ],
+    [
+      1.60812,
+      "\r\n"
+    ],
+    [
+      0.059641,
+      "No archive \"/home/demo/CV/cv_corpus_v1.tar.gz\" - downloading...\r\n"
+    ],
+    [
+      1.592497,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.136278,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      1.3e-05,
+      "No directory \"/home/demo/CV/cv_corpus_v1.tar.gz\" - extracting archive...\r\n"
+    ],
+    [
+      1.043828,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.000193,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      0.203495,
+      "\r\nNo CSV file \"/home/demo/CV/cv-valid-test.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-valid-test.csv\"...\r\n"
+    ],
+    [
+      0.009504,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.084086,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.097183,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-valid-test.csv\"...\r\n"
+    ],
+    [
+      0.000349,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      8e-06,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      2.1e-05,
+      "Imported 3945 samples.\r\nSkipped 50 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.00038,
+      "\r\n"
+    ],
+    [
+      1.8e-05,
+      "No CSV file \"/home/demo/CV/cv-valid-dev.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-valid-dev.csv\"...\r\n"
+    ],
+    [
+      0.009414,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.106114,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.095761,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-valid-dev.csv\"...\r\n"
+    ],
+    [
+      0.000325,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      6e-06,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      2.2e-05,
+      "Imported 4023 samples.\r\n"
+    ],
+    [
+      6e-06,
+      "Skipped 53 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.000386,
+      "\r\n"
+    ],
+    [
+      2.4e-05,
+      "No CSV file \"/home/demo/CV/cv-invalid.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-invalid.csv\"...\r\n"
+    ],
+    [
+      0.055503,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.108142,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.097047,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-invalid.csv\"...\r\n"
+    ],
+    [
+      0.00036,
+      "\rProgress |----------------------------------------| 0.0% completed\r\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      6e-06,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      2.1e-05,
+      "Imported 24056 samples.\r\n"
+    ],
+    [
+      6e-06,
+      "Skipped 3 samples that were too short to match the transcript.\r\nSkipped 1344 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.002738,
+      "\r\n"
+    ],
+    [
+      2.4e-05,
+      "No CSV file \"/home/demo/CV/cv-other-test.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-other-test.csv\"...\r\n"
+    ],
+    [
+      0.00699,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.111767,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.081772,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-other-train.csv\"...\r\n"
+    ],
+    [
+      0.000751,
+      "\rProgress |----------------------------------------| 0.0% completed\r\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      7e-06,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      1.9e-05,
+      "Imported 143103 samples.\r\n"
+    ],
+    [
+      7e-06,
+      "Skipped 2032 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.016271,
+      "\r\n"
+    ],
+    [
+      1.4e-05,
+      "No CSV file \"/home/demo/CV/cv-valid-train.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-valid-train.csv\"...\r\n"
+    ],
+    [
+      0.430388,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.108979,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.048018,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-valid-train.csv\"...\r\n"
+    ],
+    [
+      0.000178,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      7e-06,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      1.8e-05,
+      "Imported 193284 samples.\r\n"
+    ],
+    [
+      7e-06,
+      "Skipped 2492 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.022504,
+      "\r\n"
+    ],
+    [
+      1.3e-05,
+      "No CSV file \"/home/demo/CV/cv-other-dev.csv\" - importing \"/home/demo/CV/cv_corpus_v1/cv-other-dev.csv\"...\r\n"
+    ],
+    [
+      0.007308,
+      "Importing mp3 files...\r\n"
+    ],
+    [
+      0.115431,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      0.070288,
+      "\rProgress |########################################| 100.0% completed\r\r\nWriting \"/home/demo/CV/cv-other-dev.csv\"...\r\n"
+    ],
+    [
+      0.000297,
+      "\rProgress |----------------------------------------| 0.0% completed\r"
+    ],
+    [
+      1.2e-05,
+      "\rProgress |########################################| 100.0% completed\r\r\n"
+    ],
+    [
+      1.7e-05,
+      "Imported 2966 samples.\r\nSkipped 56 samples that were longer than 10 seconds.\r\n"
+    ],
+    [
+      0.100233,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.798537,
+      "l"
+    ],
+    [
+      0.135833,
+      "s"
+    ],
+    [
+      0.272025,
+      " "
+    ],
+    [
+      0.944066,
+      "."
+    ],
+    [
+      0.151989,
+      "."
+    ],
+    [
+      0.504034,
+      "/"
+    ],
+    [
+      0.735862,
+      "C"
+    ],
+    [
+      0.231968,
+      "V"
+    ],
+    [
+      1.672148,
+      "\r\n"
+    ],
+    [
+      0.003751,
+      "\u001b[0m\u001b[01;34mcv_corpus_v1\u001b[0m         cv-invalid.csv    cv-other-test.csv   cv-valid-dev.csv   cv-valid-train.csv\r\n\u001b[01;31mcv_corpus_v1.tar.gz\u001b[0m  cv-other-dev.csv  cv-other-train.csv  cv-valid-test.csv\r\n"
+    ],
+    [
+      0.001076,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ]
+  ]
+}
