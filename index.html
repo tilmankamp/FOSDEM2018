@@ -30,7 +30,19 @@
 					Tilman Kamp, Jan 2018
 				</section>
 				<section>
+					<h3>Reason 1</h3>
+					State of the Art Alternative to proprietary solutions
+				</section>
+				<section>
 					<img src="images/HAL9000.svg" alt="HAL9000" height="400em" style="border:0; background:transparent; box-shadow: none"/>
+				</section>
+				<section>
+					<h3>Reason 2</h3>
+					Offline support to protect privacy and get lower latency
+				</section>
+				<section>
+					<h3>Reason 3</h3>
+					End-to-end machine learning approach
 				</section>
 				<section>
 					<h3>User's perspective (embedding)</h3>
@@ -86,112 +98,85 @@ audioStream.on('finish', () => {
 					Relevant Node.js code
 				</section>
 				<section>
-					But how to train a model?
+					<h2>Performance</h2>
+					<table style="table-layout: fixed">
+						<tr><th>Human WER</th><th>DeepSpeech WER</th></tr>
+						<tr><td>5.83%</td><td>5.6%</td></tr>
+					</table>
+					<p>Set: librivox clean test</p>
+				</section>
+				<section>
+					<h2>Training a model</h2>
 				</section>
 				<section>
 					<asciinema-player font-size="16" src="casts/ds_prep.cast"></asciinema-player>
 					DeepSpeech training preparation
 				</section>
 				<section>
-					Some words about data
+					<h2>Getting data</h2>
 				</section>
 				<section>
 					<img src="images/cv_page.png" height="500px" alt="voice.mozilla.org"/>
-					<br/>
-					https://voice.mozilla.org
+					<p>https://voice.mozilla.org</p>
 				</section>
 				<section>
 					<img src="images/cv_record.png" height="500px" alt="voice.mozilla.org/record"/>
-					<br/>
-					Contributing voice samples
+					<p>Contributing voice samples</p>
 				</section>
 				<section>
 					<img src="images/cv_validate.png" width="800px" alt="voice.mozilla.org"/>
-					<br/>
-					Validating voice samples
+					<p>Validating voice samples</p>
 				</section>
 				<section>
 					<img src="images/cv_download.png" height="500px" alt="voice.mozilla.org/data"/>
-					<br/>
-					https://voice.mozilla.org/data
+					<p>https://voice.mozilla.org/data</p>
 				</section>
 				<section>
 					<asciinema-player font-size="16" src="casts/cv_prep.cast"></asciinema-player>
 					CommonVoice corpus installation
 				</section>
 				<section>
+					<h2>Building a language corpus from scratch</h2>
+				</section>
+				<section>
+					<p><a href="audio/jakob.wav">jakob.wav</a></p>
+					<audio controls>
+						<source src="audio/jakob.wav" type="audio/wav"/>
+						Your browser does not support the audio element.
+					</audio>
+					<p><small>»Typograf Jakob zürnt schweißgequält vom öden Text.«</small></p>
+				</section>
+				<section>
+					<h2>Some terminology</h2>
+				</section>
+				<section>
 					<img src="images/loss_dev.svg" height="500px" alt="Loss development" style="border:0; background:transparent; box-shadow: none"/>
 				</section>
-				<section data-markdown data-separator="---">
-					<script type="text/template">
-						# DeepSpeech
-
-						- human voice increasingly important UI
-						- current state of the art
-							- proprietary
-							- user lock-in
-							- online-only
-
-						---
-
-						### Introduction
-						- A short history of automatic speech recognition (ASR)
-						- What is the motivation behind project DeepSpeech?
-						- How does DeepSpeech work?
-						- How good is DeepSpeech compared to other solutions?
-
-						---
-
-						### Differences to current solutions
-
-						- end-to-end deep learning solution
-						- translates raw audio data into text - no domain specific code in between
-						- requires huge amount of voice data
-
-						---
-
-						### Using DeepSpeech
-						- How to voice-enable a project using DeepSpech
-						- How to translate audio data into text
-						- Looking into the demo code
-
-						---
-
-						### About data
-						- What kind of data is required to train a model?
-						- Which corpora are we currently using to train our models?
-						- Common Voice: What is it and how to contribute?
-						- Unboxing first version of Common Voice corpus
-
-						---
-
-						### Demo
-						- How to import (corpus) data
-						- How to create a simple corpus from own samples
-						- How to augment samples with noise
-
-						---
-
-						## Training a DeepSpeech model
-						- How does training work?
-						- What are train, dev and test data-sets used for?
-						- What are the required software components?
-						- What are the hardware requirements?
-
-						---
-
-						### Demo
-						- How to train a simple model
-
-						---
-
-						### Roadmap
-						- What's our roadmap for 2018+?
-
-						---
-
-						## Q&amp;A
-                    </script>
+				<section>
+<pre><code class="python" style="font-size: 20px">for epoch in range(max_epochs):
+    for batch in train_set.get_batches(train_batch_size):
+        train_loss = model.compute_loss(batch)
+        gradients = optimizer.compute_gradients(train_loss)
+        optimizer.apply_gradients(gradients)
+    for batch in dev_set.get_batches(dev_batch_size):
+        dev_losses.append(model.compute_loss(batch))
+    dev_loss = avg(dev_losses)
+    if dev_loss > last_dev_loss:
+        return # early stop to prevent overfitting
+    last_dev_loss = dev_loss
+for batch in test_set.get_batches(test_batch_size):
+    test_losses.append(model.compute_loss(batch))
+test_loss = avg(test_losses)</code></pre>
+				</section>
+				<section>
+					<h2>Roadmap 2018</h2>
+					<p>Another language</p>
+					<p>Streaming support</p>
+					<p>Optimizing for noisy backgrounds<br/>(Thanks to freesound.org)</p>
+					<p>Text To Speech (TTS)</p>
+				</section>
+				<section>
+					<h2>Q&amp;A</h2>
 				</section>
 			</div>
 		</div>
