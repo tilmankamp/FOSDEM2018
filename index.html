@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-		<title>reveal.js</title>
+		<title>DeepSpeech</title>
 
 		<link rel="stylesheet" href="css/reveal.css"/>
 		<link rel="stylesheet" href="css/theme/black.css"/>
@@ -26,11 +26,26 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
+					<h2>DeepSpeech &amp; CommonVoice</h2>
+					Tilman Kamp, Jan 2018
+				</section>
+				<section>
 					<img src="images/HAL9000.svg" alt="HAL9000" height="400em" style="border:0; background:transparent; box-shadow: none"/>
+				</section>
+				<section>
+					<h3>User's perspective (embedding)</h3>
 				</section>
 				<section>
 					<asciinema-player font-size="16" src="casts/preparation.cast"></asciinema-player>
 					Preparation of the environment
+				</section>
+				<section>
+					<p><a href="audio/8455-210777-0068.wav">8455-210777-0068.wav</a></p>
+					<audio controls>
+						<source src="audio/8455-210777-0068.wav" type="audio/wav"/>
+						Your browser does not support the audio element.
+					</audio>
+					<p>»Your power is sufficient, I said.«</p>
 				</section>
 				<section>
 					<asciinema-player font-size="16" src="casts/python_usage.cast"></asciinema-player>
@@ -69,6 +84,43 @@ audioStream.on('finish', () => {
     console.log(model.stt(audioBuffer.slice(0, audioBuffer.length / 2), 16000))
 });</code></pre>
 					Relevant Node.js code
+				</section>
+				<section>
+					But how to train a model?
+				</section>
+				<section>
+					<asciinema-player font-size="16" src="casts/ds_prep.cast"></asciinema-player>
+					DeepSpeech training preparation
+				</section>
+				<section>
+					Some words about data
+				</section>
+				<section>
+					<img src="images/cv_page.png" height="500px" alt="voice.mozilla.org"/>
+					<br/>
+					https://voice.mozilla.org
+				</section>
+				<section>
+					<img src="images/cv_record.png" height="500px" alt="voice.mozilla.org/record"/>
+					<br/>
+					Contributing voice samples
+				</section>
+				<section>
+					<img src="images/cv_validate.png" width="800px" alt="voice.mozilla.org"/>
+					<br/>
+					Validating voice samples
+				</section>
+				<section>
+					<img src="images/cv_download.png" height="500px" alt="voice.mozilla.org/data"/>
+					<br/>
+					https://voice.mozilla.org/data
+				</section>
+				<section>
+					<asciinema-player font-size="16" src="casts/cv_prep.cast"></asciinema-player>
+					CommonVoice corpus installation
+				</section>
+				<section>
+					<img src="images/loss_dev.svg" height="500px" alt="Loss development" style="border:0; background:transparent; box-shadow: none"/>
 				</section>
 				<section data-markdown data-separator="---">
 					<script type="text/template">
