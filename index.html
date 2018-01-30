@@ -30,6 +30,12 @@
 					Tilman Kamp, Jan 2018
 				</section>
 				<section>
+					<h3>What are we doing?</h3>
+				</section>
+				<section>
+					<h3>Why are we doing this?</h3>
+				</section>
+				<section>
 					<h3>Reason 1</h3>
 					State of the Art Alternative to proprietary solutions
 				</section>
@@ -48,7 +54,7 @@
 					<h3>User's perspective (embedding)</h3>
 				</section>
 				<section>
-					<asciinema-player font-size="16" src="casts/preparation.cast"></asciinema-player>
+					<asciinema-player preload="true" font-size="16" src="casts/preparation.cast"></asciinema-player>
 					Preparation of the environment
 				</section>
 				<section>
@@ -60,7 +66,7 @@
 					<p>»Your power is sufficient, I said.«</p>
 				</section>
 				<section>
-					<asciinema-player font-size="16" src="casts/python_usage.cast"></asciinema-player>
+					<asciinema-player preload="true" font-size="16" src="casts/python_usage.cast"></asciinema-player>
 					Python usage
 				</section>
 				<section>
@@ -78,7 +84,7 @@ if __name__ == '__main__':
 					Relevant Python code
 				</section>
 				<section>
-					<asciinema-player font-size="16" src="casts/js_usage.cast"></asciinema-player>
+					<asciinema-player preload="true" font-size="16" src="casts/js_usage.cast"></asciinema-player>
 					Node.js usage
 				</section>
 								<section>
@@ -109,7 +115,7 @@ audioStream.on('finish', () => {
 					<h2>Training a model</h2>
 				</section>
 				<section>
-					<asciinema-player font-size="16" src="casts/ds_prep.cast"></asciinema-player>
+					<asciinema-player preload="true" font-size="16" src="casts/ds_prep.cast"></asciinema-player>
 					DeepSpeech training preparation
 				</section>
 				<section>
@@ -132,7 +138,7 @@ audioStream.on('finish', () => {
 					<p>https://voice.mozilla.org/data</p>
 				</section>
 				<section>
-					<asciinema-player font-size="16" src="casts/cv_prep.cast"></asciinema-player>
+					<asciinema-player preload="true" font-size="16" src="casts/cv_prep.cast"></asciinema-player>
 					CommonVoice corpus installation
 				</section>
 				<section>
@@ -189,6 +195,23 @@ test_loss = avg(test_losses)</code></pre>
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				keyboard: {
+					32: function(event) {
+						var slide = Reveal.getCurrentSlide()
+						var player = slide.getElementsByTagName('asciinema-player')[0]
+						if(player) {
+							if(player.playing) {
+								player.pause()
+								player.playing = false
+							} else {
+								player.play()
+								player.playing = true
+							}
+						} else {
+							Reveal.isOverview() ? Reveal.deactivateOverview() : event.shiftKey ? Reveal.prev() : Reveal.next();
+						}
+					}
+				},
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
