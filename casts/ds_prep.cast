@@ -1954,6 +1954,226 @@
       6.262176,
       "Successfully installed asn1crypto-0.24.0 backports.functools-lru-cache-1.4 backports.weakref-1.0.post1 bcrypt-3.1.4 beautifulsoup4-4.6.0 bleach-1.5.0 bs4-0.0.1 cffi-1.11.4 cryptography-2.1.4 cycler-0.10.0 enum34-1.1.6 funcsigs-1.0.2 futures-3.2.0 html5lib-0.9999999 idna-2.6 ipaddress-1.0.19 markdown-2.6.11 matplotlib-2.1.2 mock-2.0.0 numpy-1.14.0 pandas-0.22.0 paramiko-2.4.0 pbr-3.1.1 progressbar2-3.34.3 protobuf-3.5.1 pyasn1-0.4.2 pycparser-2.18 pynacl-1.2.1 pyparsing-2.2.0 pysftp-0.2.9 python-dateutil-2.6.1 python-speech-features-0.6 python-utils-2.2.0 pytz-2017.3 pyxdg-0.25 scipy-1.0.0 six-1.11.0 sox-1.3.2 subprocess32-3.2.7 tensorflow-1.4.0 tensorflow-tensorboard-0.4.0 werkzeug-0.14.1\r\n"
     ],
+        [
+      0.006362,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.365697,
+      "p"
+    ],
+    [
+      0.249903,
+      "i"
+    ],
+    [
+      0.230006,
+      "p"
+    ],
+    [
+      0.250014,
+      " "
+    ],
+    [
+      0.183963,
+      "i"
+    ],
+    [
+      0.207054,
+      "n"
+    ],
+    [
+      0.135936,
+      "s"
+    ],
+    [
+      0.112999,
+      "t"
+    ],
+    [
+      0.120024,
+      "a"
+    ],
+    [
+      0.291044,
+      "l"
+    ],
+    [
+      0.137974,
+      "l"
+    ],
+    [
+      0.572019,
+      " "
+    ],
+    [
+      0.430108,
+      "t"
+    ],
+    [
+      0.22195,
+      "e"
+    ],
+    [
+      0.105819,
+      "n"
+    ],
+    [
+      0.156104,
+      "s"
+    ],
+    [
+      0.190342,
+      "o"
+    ],
+    [
+      0.13342,
+      "r"
+    ],
+    [
+      0.208248,
+      "f"
+    ],
+    [
+      0.249904,
+      "l"
+    ],
+    [
+      0.206106,
+      "o"
+    ],
+    [
+      0.353852,
+      "w"
+    ],
+    [
+      0.964159,
+      "_"
+    ],
+    [
+      0.844091,
+      "g"
+    ],
+    [
+      0.191783,
+      "p"
+    ],
+    [
+      0.256097,
+      "u"
+    ],
+    [
+      0.422266,
+      "="
+    ],
+    [
+      0.450023,
+      "="
+    ],
+    [
+      0.561842,
+      "1"
+    ],
+    [
+      0.213897,
+      "."
+    ],
+    [
+      0.349999,
+      "4"
+    ],
+    [
+      0.157933,
+      "."
+    ],
+    [
+      0.398256,
+      "0"
+    ],
+    [
+      0.275856,
+      "\r\n"
+    ],
+    [
+      0.457653,
+      "Collecting tensorflow_gpu==1.4.0\r\n"
+    ],
+    [
+      2.963714,
+      "  Using cached tensorflow_gpu-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl\r\n"
+    ],
+    [
+      2.923455,
+      "Requirement already satisfied: tensorflow-tensorboard<0.5.0,>=0.4.0rc1 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.007601,
+      "Requirement already satisfied: mock>=2.0.0 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.010185,
+      "Requirement already satisfied: enum34>=1.1.6 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.00092,
+      "Requirement already satisfied: protobuf>=3.3.0 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.00164,
+      "Requirement already satisfied: wheel in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.005525,
+      "Requirement already satisfied: backports.weakref>=1.0rc1 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.000911,
+      "Requirement already satisfied: six>=1.10.0 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.000863,
+      "Requirement already satisfied: numpy>=1.12.1 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.001168,
+      "Requirement already satisfied: bleach==1.5.0 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.002853,
+      "Requirement already satisfied: futures>=3.1.1; python_version < \"3.2\" in /home/demo/venv/lib/python2.7/site-packages (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.000992,
+      "Requirement already satisfied: html5lib==0.9999999 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.001632,
+      "Requirement already satisfied: werkzeug>=0.11.10 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.004158,
+      "Requirement already satisfied: markdown>=2.6.8 in /home/demo/venv/lib/python2.7/site-packages (from tensorflow-tensorboard<0.5.0,>=0.4.0rc1->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.001302,
+      "Requirement already satisfied: funcsigs>=1; python_version < \"3.3\" in /home/demo/venv/lib/python2.7/site-packages (from mock>=2.0.0->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.001771,
+      "Requirement already satisfied: pbr>=0.11 in /home/demo/venv/lib/python2.7/site-packages (from mock>=2.0.0->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.000777,
+      "Requirement already satisfied: setuptools in /home/demo/venv/lib/python2.7/site-packages (from protobuf>=3.3.0->tensorflow_gpu==1.4.0)\r\n"
+    ],
+    [
+      0.002132,
+      "Installing collected packages: tensorflow-gpu\r\n"
+    ],
+    [
+      1.807324,
+      "Successfully installed tensorflow-gpu-1.4.0\r\n"
+    ],
     [
       0.219047,
       "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "

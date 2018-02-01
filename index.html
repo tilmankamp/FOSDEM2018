@@ -175,6 +175,22 @@ for batch in test_set.get_batches(test_batch_size):
 test_loss = avg(test_losses)</code></pre>
 				</section>
 				<section>
+					<pre><code class="bash" style="font-size: 20px">#!/usr/bin/env bash
+python -u DeepSpeech.py \
+    --train_files "/home/demo/miniger/miniger-train.csv" \
+    --dev_files "/home/demo/miniger/miniger-train.csv" \
+    --test_files "/home/demo/miniger/miniger-train.csv" \
+    --alphabet_config_path "/home/demo/german-models/alphabet.txt" \
+    --lm_binary_path "/home/demo/german-models/lm.binary" \
+    --lm_trie_path "/home/demo/german-models/trie" \
+    --learning_rate 0.000025 \
+    --dropout_rate 0 \
+    --word_count_weight 3.5 \
+    --log_level 1 \
+    --display_step 1 \
+    --epoch 200</code></pre>
+				</section>
+				<section>
 					<h2>Roadmap 2018</h2>
 					<p>Another language</p>
 					<p>Streaming support</p>

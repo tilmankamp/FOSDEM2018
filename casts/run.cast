@@ -1,0 +1,1038 @@
+{
+  "version": 1,
+  "width": 96,
+  "height": 25,
+  "duration": 736.905065,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.019606,
+      "\u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.759883,
+      "s"
+    ],
+    [
+      0.109804,
+      "o"
+    ],
+    [
+      0.207955,
+      "u"
+    ],
+    [
+      0.115998,
+      "r"
+    ],
+    [
+      0.198001,
+      "c"
+    ],
+    [
+      0.197977,
+      "e"
+    ],
+    [
+      0.154046,
+      " "
+    ],
+    [
+      0.234017,
+      "."
+    ],
+    [
+      0.146061,
+      "."
+    ],
+    [
+      0.363833,
+      "/"
+    ],
+    [
+      1.128393,
+      "v"
+    ],
+    [
+      0.217547,
+      "e"
+    ],
+    [
+      0.091997,
+      "n"
+    ],
+    [
+      0.20202,
+      "v/"
+    ],
+    [
+      0.990295,
+      "b"
+    ],
+    [
+      0.070817,
+      "i"
+    ],
+    [
+      0.279729,
+      "n/"
+    ],
+    [
+      0.71044,
+      "a"
+    ],
+    [
+      0.206,
+      "c"
+    ],
+    [
+      0.112564,
+      "\u0007tivate"
+    ],
+    [
+      0.2555,
+      "\r\n"
+    ],
+    [
+      0.006327,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      1.683815,
+      "."
+    ],
+    [
+      0.370006,
+      "/"
+    ],
+    [
+      0.500004,
+      "."
+    ],
+    [
+      0.35813,
+      "r"
+    ],
+    [
+      0.189818,
+      "u"
+    ],
+    [
+      0.174044,
+      "n"
+    ],
+    [
+      1.326016,
+      "\r\n"
+    ],
+    [
+      1.584741,
+      "W Parameter --validation_step needs to be >0 for early stopping to work\r\n"
+    ],
+    [
+      13.474437,
+      "I STARTING Optimization"
+    ],
+    [
+      2.1e-05,
+      "\r\n"
+    ],
+    [
+      3.849166,
+      "I Training of Epoch 0 - WER: 1.000000, loss: 577.7814331054688, mean edit distance: 2.469388\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 577.781433, mean edit distance: 2.469388\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ja ja ja an alalalamajajalalalajajalalajamalalalalajajamajalnljlalalalalalalalalalalalalalalalalalamamamlalalalalamlmlalalalala \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.364507,
+      "I Training of Epoch 1 - WER: 1.000000, loss: 378.5984191894531, mean edit distance: 0.959184\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 378.598419, mean edit distance: 0.959184\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"a \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.36356,
+      "I Training of Epoch 2 - WER: 1.000000, loss: 387.134033203125, mean edit distance: 0.959184\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 387.134033, mean edit distance: 0.959184\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"a \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.362638,
+      "I Training of Epoch 3 - WER: 1.000000, loss: 310.5377197265625, mean edit distance: 0.938776\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 310.537720, mean edit distance: 0.938776\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"aaaaa \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.359238,
+      "I Training of Epoch 4 - WER: 1.000000, loss: 233.76779174804688, mean edit distance: 0.836735\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 233.767792, mean edit distance: 0.836735\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"o a a a a a \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.353406,
+      "I Training of Epoch 5 - WER: 2.000000, loss: 184.143310546875, mean edit distance: 0.795918\r\nI --------------------------------------------------------------------------------\r\nI WER: 2.000000, loss: 184.143311, mean edit distance: 0.795918\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"o g t e a a a a a a a o t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.372314,
+      "I Training of Epoch 6 - WER: 2.857143, loss: 164.29904174804688, mean edit distance: 0.775510\r\nI --------------------------------------------------------------------------------\r\nI WER: 2.857143, loss: 164.299042, mean edit distance: 0.775510\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"o g t e a a a a a a o o t e t e t e t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.364871,
+      "I Training of Epoch 7 - WER: 3.142857, loss: 149.67724609375, mean edit distance: 0.775510\r\nI --------------------------------------------------------------------------------\r\nI WER: 3.142857, loss: 149.677246, mean edit distance: 0.775510\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"o t r a a a a a a o o o t e t e t e t e t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.378149,
+      "I Training of Epoch 8 - WER: 1.000000, loss: 139.25233459472656, mean edit distance: 0.714286\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 139.252335, mean edit distance: 0.714286\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tgrgrataotototetetetotetet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.409585,
+      "I Training of Epoch 9 - WER: 1.000000, loss: 129.19442749023438, mean edit distance: 0.693878\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 129.194427, mean edit distance: 0.693878\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tygrgraoaotototeteteoeoetet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.356521,
+      "I Training of Epoch 10 - WER: 1.000000, loss: 117.02027893066406, mean edit distance: 0.693878\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 117.020279, mean edit distance: 0.693878\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"yogrgraeaototehegegeoeoete \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.383873,
+      "I Training of Epoch 11 - WER: 1.000000, loss: 105.18924713134766, mean edit distance: 0.632653\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 105.189247, mean edit distance: 0.632653\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrgraokontehegegeoeodete \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.366473,
+      "I Training of Epoch 12 - WER: 1.000000, loss: 95.46487426757812, mean edit distance: 0.551020\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 95.464874, mean edit distance: 0.551020\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakonrnhegegeovodete \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.391313,
+      "I Training of Epoch 13 - WER: 1.000000, loss: 87.88872528076172, mean edit distance: 0.489796\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 87.888725, mean edit distance: 0.489796\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakonrnhwegqävoödete \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.353642,
+      "I Training of Epoch 14 - WER: 1.000000, loss: 81.73786163330078, mean edit distance: 0.489796\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 81.737862, mean edit distance: 0.489796\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakozrnhwigqävödnex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.359475,
+      "I Training of Epoch 15 - WER: 1.000000, loss: 76.33966064453125, mean edit distance: 0.489796\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 76.339661, mean edit distance: 0.489796\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakazrnshwißgqäv d e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.403778,
+      "I Training of Epoch 16 - WER: 1.000000, loss: 71.27995300292969, mean edit distance: 0.428571\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 71.279953, mean edit distance: 0.428571\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakbzrnschwißgquäv d e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.384914,
+      "I Training of Epoch 17 - WER: 1.000000, loss: 66.22853088378906, mean edit distance: 0.469388\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 66.228531, mean edit distance: 0.469388\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"ypogrfjakbzrnschwißquä d t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.36906,
+      "I Training of Epoch 18 - WER: 1.000000, loss: 61.083160400390625, mean edit distance: 0.448980\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 61.083160, mean edit distance: 0.448980\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typogrfjakbzrntscwißquä d t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.407029,
+      "I Training of Epoch 19 - WER: 1.000000, loss: 56.117923736572266, mean edit distance: 0.469388\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 56.117924, mean edit distance: 0.469388\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tpogrfajakbzürntscwißquäl t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.382724,
+      "I Training of Epoch 20 - WER: 1.000000, loss: 51.69953536987305, mean edit distance: 0.346939\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 51.699535, mean edit distance: 0.346939\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tpograjakbzürntscweißequltvmödet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.429246,
+      "I Training of Epoch 21 - WER: 1.000000, loss: 47.90486145019531, mean edit distance: 0.346939\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 47.904861, mean edit distance: 0.346939\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tpogra ab zürntscweißequltvmödet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358562,
+      "I Training of Epoch 22 - WER: 1.000000, loss: 44.5752067565918, mean edit distance: 0.346939\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 44.575207, mean edit distance: 0.346939\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tpogra ab zürntscweißequltvmödet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.399561,
+      "I Training of Epoch 23 - WER: 1.000000, loss: 41.427913665771484, mean edit distance: 0.306122\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 41.427914, mean edit distance: 0.306122\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"tpogra ja ob zürntscweßequltvomöenet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.36783,
+      "I Training of Epoch 24 - WER: 1.000000, loss: 38.325626373291016, mean edit distance: 0.244898\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 38.325626, mean edit distance: 0.244898\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typogra ja ob zürntscweißequltvomödenet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.361807,
+      "I Training of Epoch 25 - WER: 1.000000, loss: 35.30076217651367, mean edit distance: 0.224490\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 35.300762, mean edit distance: 0.224490\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißequltvomödenet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.522719,
+      "I Training of Epoch 26 - WER: 1.000000, loss: 32.4549560546875, mean edit distance: 0.204082\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 32.454956, mean edit distance: 0.204082\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequltvomödenet \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.353527,
+      "I Training of Epoch 27 - WER: 1.000000, loss: 29.921483993530273, mean edit distance: 0.183673\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 29.921484, mean edit distance: 0.183673\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält o den et \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.370295,
+      "I Training of Epoch 28 - WER: 1.000000, loss: 27.797311782836914, mean edit distance: 0.183673\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 27.797312, mean edit distance: 0.183673\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält o den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.494968,
+      "I Training of Epoch 29 - WER: 1.000000, loss: 26.013479232788086, mean edit distance: 0.183673\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 26.013479, mean edit distance: 0.183673\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält o den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.35484,
+      "I Training of Epoch 30 - WER: 1.000000, loss: 24.4167537689209, mean edit distance: 0.183673\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 24.416754, mean edit distance: 0.183673\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält o den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.398455,
+      "I Training of Epoch 31 - WER: 1.000000, loss: 22.832338333129883, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 22.832338, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.375231,
+      "I Training of Epoch 32 - WER: 1.000000, loss: 21.240583419799805, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 21.240583, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358504,
+      "I Training of Epoch 33 - WER: 1.000000, loss: 19.717557907104492, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 19.717558, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.458848,
+      "I Training of Epoch 34 - WER: 1.000000, loss: 18.3409366607666, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 18.340937, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.436234,
+      "I Training of Epoch 35 - WER: 1.000000, loss: 17.12387466430664, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 17.123875, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.456317,
+      "I Training of Epoch 36 - WER: 1.000000, loss: 16.043331146240234, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 16.043331, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.430367,
+      "I Training of Epoch 37 - WER: 1.000000, loss: 15.057178497314453, mean edit distance: 0.142857\r\nI --------------------------------------------------------------------------------\r\nI WER: 1.000000, loss: 15.057178, mean edit distance: 0.142857\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typografjakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.431834,
+      "I Training of Epoch 38 - WER: 0.857143, loss: 14.131461143493652, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.857143, loss: 14.131461, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.450615,
+      "I Training of Epoch 39 - WER: 0.714286, loss: 13.254828453063965, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.714286, loss: 13.254828, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.430399,
+      "I Training of Epoch 40 - WER: 0.857143, loss: 12.438180923461914, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.857143, loss: 12.438181, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t e \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.416399,
+      "I Training of Epoch 41 - WER: 0.714286, loss: 11.68394947052002, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.714286, loss: 11.683949, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.432564,
+      "I Training of Epoch 42 - WER: 0.714286, loss: 10.988409996032715, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.714286, loss: 10.988410, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.452229,
+      "I Training of Epoch 43 - WER: 0.714286, loss: 10.34628963470459, mean edit distance: 0.122449\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.714286, loss: 10.346290, mean edit distance: 0.122449\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakobzürntschweißgequält vom den t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.43764,
+      "I Training of Epoch 44 - WER: 0.571429, loss: 9.754876136779785, mean edit distance: 0.102041\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.571429, loss: 9.754876, mean edit distance: 0.102041\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürntschweißgequält vom den t \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.527829,
+      "I Training of Epoch 45 - WER: 0.571429, loss: 9.209134101867676, mean edit distance: 0.061224\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.571429, loss: 9.209134, mean edit distance: 0.061224\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürntschweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355772,
+      "I Training of Epoch 46 - WER: 0.285714, loss: 8.706554412841797, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 8.706554, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.443541,
+      "I Training of Epoch 47 - WER: 0.285714, loss: 8.243229866027832, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 8.243230, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.542371,
+      "I Training of Epoch 48 - WER: 0.285714, loss: 7.816252708435059, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 7.816253, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358708,
+      "I Training of Epoch 49 - WER: 0.285714, loss: 7.422525405883789, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 7.422525, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.43275,
+      "I Training of Epoch 50 - WER: 0.285714, loss: 7.053159236907959, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 7.053159, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.57226,
+      "I Training of Epoch 51 - WER: 0.285714, loss: 6.706859111785889, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 6.706859, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.354675,
+      "I Training of Epoch 52 - WER: 0.285714, loss: 6.38179349899292, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 6.381793, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.406367,
+      "I Training of Epoch 53 - WER: 0.285714, loss: 6.076371669769287, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 6.076372, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.442372,
+      "I Training of Epoch 54 - WER: 0.285714, loss: 5.791872501373291, mean edit distance: 0.040816\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.285714, loss: 5.791873, mean edit distance: 0.040816\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den tex \"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.454106,
+      "I Training of Epoch 55 - WER: 0.142857, loss: 5.529125690460205, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 5.529126, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.533765,
+      "I Training of Epoch 56 - WER: 0.142857, loss: 5.287937164306641, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 5.287937, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355735,
+      "I Training of Epoch 57 - WER: 0.142857, loss: 5.06535530090332, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 5.065355, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.527371,
+      "I Training of Epoch 58 - WER: 0.142857, loss: 4.856954574584961, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 4.856955, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.349097,
+      "I Training of Epoch 59 - WER: 0.142857, loss: 4.6596174240112305, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 4.659617, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.45984,
+      "I Training of Epoch 60 - WER: 0.142857, loss: 4.47232723236084, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 4.472327, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355369,
+      "I Training of Epoch 61 - WER: 0.142857, loss: 4.29540491104126, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 4.295405, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.444845,
+      "I Training of Epoch 62 - WER: 0.142857, loss: 4.129025936126709, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 4.129026, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.362497,
+      "I Training of Epoch 63 - WER: 0.142857, loss: 3.9733502864837646, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.973350, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.471071,
+      "I Training of Epoch 64 - WER: 0.142857, loss: 3.8275249004364014, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.827525, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.364886,
+      "I Training of Epoch 65 - WER: 0.142857, loss: 3.6900837421417236, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.690084, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.36837,
+      "I Training of Epoch 66 - WER: 0.142857, loss: 3.5601468086242676, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.560147, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.369174,
+      "I Training of Epoch 67 - WER: 0.142857, loss: 3.437163829803467, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.437164, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.449465,
+      "I Training of Epoch 68 - WER: 0.142857, loss: 3.320904493331909, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.320904, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.360775,
+      "I Training of Epoch 69 - WER: 0.142857, loss: 3.2110371589660645, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.211037, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.578388,
+      "I Training of Epoch 70 - WER: 0.142857, loss: 3.1074788570404053, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.107479, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358168,
+      "I Training of Epoch 71 - WER: 0.142857, loss: 3.0092499256134033, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 3.009250, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.466944,
+      "I Training of Epoch 72 - WER: 0.142857, loss: 2.916105031967163, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.916105, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.446181,
+      "I Training of Epoch 73 - WER: 0.142857, loss: 2.8274495601654053, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.827450, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.456827,
+      "I Training of Epoch 74 - WER: 0.142857, loss: 2.7433524131774902, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.743352, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.448231,
+      "I Training of Epoch 75 - WER: 0.142857, loss: 2.66323184967041, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.663232, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.466428,
+      "I Training of Epoch 76 - WER: 0.142857, loss: 2.5866527557373047, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.586653, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.556545,
+      "I Training of Epoch 77 - WER: 0.142857, loss: 2.5134854316711426, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.513485, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.367264,
+      "I Training of Epoch 78 - WER: 0.142857, loss: 2.4435956478118896, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.443596, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.556831,
+      "I Training of Epoch 79 - WER: 0.142857, loss: 2.3771839141845703, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.377184, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.471988,
+      "I Training of Epoch 80 - WER: 0.142857, loss: 2.313894510269165, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.313895, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358817,
+      "I Training of Epoch 81 - WER: 0.142857, loss: 2.2533812522888184, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.253381, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.454936,
+      "I Training of Epoch 82 - WER: 0.142857, loss: 2.1959102153778076, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.195910, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.448665,
+      "I Training of Epoch 83 - WER: 0.142857, loss: 2.140836238861084, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.140836, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.4486,
+      "I Training of Epoch 84 - WER: 0.142857, loss: 2.0880658626556396, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.088066, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.475957,
+      "I Training of Epoch 85 - WER: 0.142857, loss: 2.0374019145965576, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 2.037402, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.432835,
+      "I Training of Epoch 86 - WER: 0.142857, loss: 1.9886753559112549, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.988675, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.450482,
+      "I Training of Epoch 87 - WER: 0.142857, loss: 1.9418411254882812, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.941841, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.361224,
+      "I Training of Epoch 88 - WER: 0.142857, loss: 1.8968110084533691, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.896811, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.536695,
+      "I Training of Epoch 89 - WER: 0.142857, loss: 1.8535481691360474, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.853548, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355977,
+      "I Training of Epoch 90 - WER: 0.142857, loss: 1.811864972114563, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.811865, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.384062,
+      "I Training of Epoch 91 - WER: 0.142857, loss: 1.7717092037200928, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.771709, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355069,
+      "I Training of Epoch 92 - WER: 0.142857, loss: 1.7329845428466797, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.732985, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.357594,
+      "I Training of Epoch 93 - WER: 0.142857, loss: 1.6956958770751953, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.695696, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.452401,
+      "I Training of Epoch 94 - WER: 0.142857, loss: 1.6598470211029053, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.659847, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.468259,
+      "I Training of Epoch 95 - WER: 0.142857, loss: 1.6252235174179077, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.625224, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.447464,
+      "I Training of Epoch 96 - WER: 0.142857, loss: 1.5917257070541382, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.591726, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.452602,
+      "I Training of Epoch 97 - WER: 0.142857, loss: 1.5592299699783325, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.559230, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.46939,
+      "I Training of Epoch 98 - WER: 0.142857, loss: 1.5277429819107056, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.527743, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      5.774195,
+      "I Training of Epoch 99 - WER: 0.142857, loss: 1.4973320960998535, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.497332, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.35656,
+      "I Training of Epoch 100 - WER: 0.142857, loss: 1.4678597450256348, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.467860, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.448081,
+      "I Training of Epoch 101 - WER: 0.142857, loss: 1.4395365715026855, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.439537, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.376721,
+      "I Training of Epoch 102 - WER: 0.142857, loss: 1.4122265577316284, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.412227, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.465286,
+      "I Training of Epoch 103 - WER: 0.142857, loss: 1.3856523036956787, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.385652, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.470454,
+      "I Training of Epoch 104 - WER: 0.142857, loss: 1.35989248752594, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.359892, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.364597,
+      "I Training of Epoch 105 - WER: 0.142857, loss: 1.3349180221557617, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.334918, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.521212,
+      "I Training of Epoch 106 - WER: 0.142857, loss: 1.3107104301452637, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.310710, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.547949,
+      "I Training of Epoch 107 - WER: 0.142857, loss: 1.2872095108032227, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.287210, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.357561,
+      "I Training of Epoch 108 - WER: 0.142857, loss: 1.2644654512405396, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.264465, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.376522,
+      "I Training of Epoch 109 - WER: 0.142857, loss: 1.242425560951233, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.242426, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.442128,
+      "I Training of Epoch 110 - WER: 0.142857, loss: 1.220969319343567, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.220969, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.443965,
+      "I Training of Epoch 111 - WER: 0.142857, loss: 1.2000759840011597, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.200076, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.549695,
+      "I Training of Epoch 112 - WER: 0.142857, loss: 1.1796894073486328, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.179689, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.458152,
+      "I Training of Epoch 113 - WER: 0.142857, loss: 1.1598719358444214, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.159872, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.457224,
+      "I Training of Epoch 114 - WER: 0.142857, loss: 1.1406357288360596, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.140636, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.513936,
+      "I Training of Epoch 115 - WER: 0.142857, loss: 1.1219241619110107, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.121924, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.515828,
+      "I Training of Epoch 116 - WER: 0.142857, loss: 1.1037038564682007, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.103704, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.447426,
+      "I Training of Epoch 117 - WER: 0.142857, loss: 1.0859161615371704, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.085916, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.36402,
+      "I Training of Epoch 118 - WER: 0.142857, loss: 1.068535327911377, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.068535, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355162,
+      "I Training of Epoch 119 - WER: 0.142857, loss: 1.0515873432159424, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.051587, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.470465,
+      "I Training of Epoch 120 - WER: 0.142857, loss: 1.0350795984268188, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.035080, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358275,
+      "I Training of Epoch 121 - WER: 0.142857, loss: 1.018965244293213, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.018965, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.393093,
+      "I Training of Epoch 122 - WER: 0.142857, loss: 1.0032474994659424, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 1.003247, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.467687,
+      "I Training of Epoch 123 - WER: 0.142857, loss: 0.987897515296936, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.987898, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.453824,
+      "I Training of Epoch 124 - WER: 0.142857, loss: 0.9728869199752808, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.972887, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.35565,
+      "I Training of Epoch 125 - WER: 0.142857, loss: 0.9582628607749939, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.958263, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.445185,
+      "I Training of Epoch 126 - WER: 0.142857, loss: 0.9439653158187866, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.943965, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.443229,
+      "I Training of Epoch 127 - WER: 0.142857, loss: 0.9299831986427307, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.929983, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.354991,
+      "I Training of Epoch 128 - WER: 0.142857, loss: 0.9163271188735962, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.916327, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.445631,
+      "I Training of Epoch 129 - WER: 0.142857, loss: 0.903021514415741, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.903022, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.468897,
+      "I Training of Epoch 130 - WER: 0.142857, loss: 0.8900086283683777, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.890009, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.477433,
+      "I Training of Epoch 131 - WER: 0.142857, loss: 0.8772971034049988, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.877297, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.356594,
+      "I Training of Epoch 132 - WER: 0.142857, loss: 0.8648394346237183, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.864839, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.3667,
+      "I Training of Epoch 133 - WER: 0.142857, loss: 0.8526524901390076, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.852652, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.360567,
+      "I Training of Epoch 134 - WER: 0.142857, loss: 0.8407155275344849, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.840716, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.364499,
+      "I Training of Epoch 135 - WER: 0.142857, loss: 0.8290742039680481, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.829074, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.472646,
+      "I Training of Epoch 136 - WER: 0.142857, loss: 0.8176823854446411, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.817682, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355474,
+      "I Training of Epoch 137 - WER: 0.142857, loss: 0.8065081238746643, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.806508, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.44285,
+      "I Training of Epoch 138 - WER: 0.142857, loss: 0.7955664992332458, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.795566, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.472239,
+      "I Training of Epoch 139 - WER: 0.142857, loss: 0.7848408222198486, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.784841, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.452875,
+      "I Training of Epoch 140 - WER: 0.142857, loss: 0.7743031978607178, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.774303, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.445627,
+      "I Training of Epoch 141 - WER: 0.142857, loss: 0.7639926671981812, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.763993, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.362997,
+      "I Training of Epoch 142 - WER: 0.142857, loss: 0.7538887858390808, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.753889, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.42363,
+      "I Training of Epoch 143 - WER: 0.142857, loss: 0.7440069317817688, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.744007, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.355866,
+      "I Training of Epoch 144 - WER: 0.142857, loss: 0.7343155741691589, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.734316, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.555079,
+      "I Training of Epoch 145 - WER: 0.142857, loss: 0.7248173952102661, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.724817, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.358943,
+      "I Training of Epoch 146 - WER: 0.142857, loss: 0.7155150771141052, mean edit distance: 0.020408\r\nI --------------------------------------------------------------------------------\r\nI WER: 0.142857, loss: 0.715515, mean edit distance: 0.020408\r\nI  - src: \"typograf jakob zürnt schweißgequält vom öden text\"\r\nI  - res: \"typograf jakob zürnt schweißgequält vom den text\"\r\nI --------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      3.367204,
+      "I Training of Epoch 147 - WER: 0.000000, loss: 0.7063857913017273, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.444928,
+      "I Training of Epoch 148 - WER: 0.000000, loss: 0.6974249482154846, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.480304,
+      "I Training of Epoch 149 - WER: 0.000000, loss: 0.688630223274231, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.465227,
+      "I Training of Epoch 150 - WER: 0.000000, loss: 0.6800161004066467, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.364803,
+      "I Training of Epoch 151 - WER: 0.000000, loss: 0.6715817451477051, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.443927,
+      "I Training of Epoch 152 - WER: 0.000000, loss: 0.6632605791091919, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.546382,
+      "I Training of Epoch 153 - WER: 0.000000, loss: 0.6550857424736023, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.358924,
+      "I Training of Epoch 154 - WER: 0.000000, loss: 0.6470986604690552, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.35125,
+      "I Training of Epoch 155 - WER: 0.000000, loss: 0.6392521858215332, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.43608,
+      "I Training of Epoch 156 - WER: 0.000000, loss: 0.631528913974762, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.449263,
+      "I Training of Epoch 157 - WER: 0.000000, loss: 0.6239154934883118, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.468271,
+      "I Training of Epoch 158 - WER: 0.000000, loss: 0.6164632439613342, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.363523,
+      "I Training of Epoch 159 - WER: 0.000000, loss: 0.6091403961181641, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.536321,
+      "I Training of Epoch 160 - WER: 0.000000, loss: 0.6019500494003296, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.355643,
+      "I Training of Epoch 161 - WER: 0.000000, loss: 0.5949326753616333, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.362032,
+      "I Training of Epoch 162 - WER: 0.000000, loss: 0.5879799723625183, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.467694,
+      "I Training of Epoch 163 - WER: 0.000000, loss: 0.5811359286308289, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.449203,
+      "I Training of Epoch 164 - WER: 0.000000, loss: 0.5744653940200806, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.357023,
+      "I Training of Epoch 165 - WER: 0.000000, loss: 0.5678929090499878, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.449339,
+      "I Training of Epoch 166 - WER: 0.000000, loss: 0.5613795518875122, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.349678,
+      "I Training of Epoch 167 - WER: 0.000000, loss: 0.5550389289855957, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.416459,
+      "I Training of Epoch 168 - WER: 0.000000, loss: 0.5487591624259949, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.589747,
+      "I Training of Epoch 169 - WER: 0.000000, loss: 0.5426009893417358, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.470168,
+      "I Training of Epoch 170 - WER: 0.000000, loss: 0.5365566611289978, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.387506,
+      "I Training of Epoch 171 - WER: 0.000000, loss: 0.5305948853492737, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.391052,
+      "I Training of Epoch 172 - WER: 0.000000, loss: 0.5247102379798889, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      6.564377,
+      "I Training of Epoch 173 - WER: 0.000000, loss: 0.5189459323883057, mean edit distance: 0.000000"
+    ],
+    [
+      3.5e-05,
+      "\r\n"
+    ],
+    [
+      3.374399,
+      "I Training of Epoch 174 - WER: 0.000000, loss: 0.5132660269737244, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.361559,
+      "I Training of Epoch 175 - WER: 0.000000, loss: 0.5076679587364197, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.360412,
+      "I Training of Epoch 176 - WER: 0.000000, loss: 0.5021653175354004, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.367463,
+      "I Training of Epoch 177 - WER: 0.000000, loss: 0.4967339336872101, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.404817,
+      "I Training of Epoch 178 - WER: 0.000000, loss: 0.4914059638977051, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.450693,
+      "I Training of Epoch 179 - WER: 0.000000, loss: 0.48617276549339294, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.474473,
+      "I Training of Epoch 180 - WER: 0.000000, loss: 0.48102378845214844, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.446405,
+      "I Training of Epoch 181 - WER: 0.000000, loss: 0.4759570360183716, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.355414,
+      "I Training of Epoch 182 - WER: 0.000000, loss: 0.47096648812294006, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.371422,
+      "I Training of Epoch 183 - WER: 0.000000, loss: 0.46601805090904236, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.470715,
+      "I Training of Epoch 184 - WER: 0.000000, loss: 0.4611338973045349, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.395113,
+      "I Training of Epoch 185 - WER: 0.000000, loss: 0.4563509225845337, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.440419,
+      "I Training of Epoch 186 - WER: 0.000000, loss: 0.4516763687133789, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.471618,
+      "I Training of Epoch 187 - WER: 0.000000, loss: 0.44707611203193665, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.446123,
+      "I Training of Epoch 188 - WER: 0.000000, loss: 0.4425468444824219, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.472881,
+      "I Training of Epoch 189 - WER: 0.000000, loss: 0.43808671832084656, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.473976,
+      "I Training of Epoch 190 - WER: 0.000000, loss: 0.4336954355239868, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.356766,
+      "I Training of Epoch 191 - WER: 0.000000, loss: 0.4293343722820282, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.453051,
+      "I Training of Epoch 192 - WER: 0.000000, loss: 0.4250480830669403, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.573251,
+      "I Training of Epoch 193 - WER: 0.000000, loss: 0.4208446145057678, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.352299,
+      "I Training of Epoch 194 - WER: 0.000000, loss: 0.4166961908340454, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.450757,
+      "I Training of Epoch 195 - WER: 0.000000, loss: 0.4125884175300598, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.561524,
+      "I Training of Epoch 196 - WER: 0.000000, loss: 0.4085327684879303, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.362217,
+      "I Training of Epoch 197 - WER: 0.000000, loss: 0.404535174369812, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      3.424498,
+      "I Training of Epoch 198 - WER: 0.000000, loss: 0.40059903264045715, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      5.33188,
+      "I Training of Epoch 199 - WER: 0.000000, loss: 0.39672401547431946, mean edit distance: 0.000000\r\nI FINISHED Optimization - training time: 0:11:32\r\n"
+    ],
+    [
+      1.830468,
+      "I Test of Epoch 200 - WER: 0.000000, loss: 0.3929082751274109, mean edit distance: 0.000000\r\n"
+    ],
+    [
+      5.183005,
+      "I Exporting the model...\r\n"
+    ],
+    [
+      0.3716,
+      "I Restored checkpoint at training epoch 201\r\n"
+    ],
+    [
+      0.117889,
+      "WARNING:tensorflow:From DeepSpeech.py:1746: generic_signature (from tensorflow.contrib.session_bundle.exporter) is deprecated and will be removed after 2017-06-30.\r\nInstructions for updating:\r\nNo longer supported. Switch to SavedModel immediately.\r\n"
+    ],
+    [
+      0.000252,
+      "WARNING:tensorflow:From DeepSpeech.py:1747: init (from tensorflow.contrib.session_bundle.exporter) is deprecated and will be removed after 2017-06-30.\r\nInstructions for updating:\r\nNo longer supported. Switch to SavedModel immediately.\r\n"
+    ],
+    [
+      0.005251,
+      "WARNING:tensorflow:From DeepSpeech.py:1756: export (from tensorflow.contrib.session_bundle.exporter) is deprecated and will be removed after 2017-06-30.\r\nInstructions for updating:\r\nNo longer supported. Switch to SavedModel immediately.\r\n"
+    ],
+    [
+      1.273333,
+      "Converted 14 variables to const ops.\r\n"
+    ],
+    [
+      0.680473,
+      "I Models exported at /home/demo/german-models\r\n"
+    ],
+    [
+      0.618213,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ],
+    [
+      3.473471,
+      "l"
+    ],
+    [
+      0.142945,
+      "s"
+    ],
+    [
+      0.189938,
+      " "
+    ],
+    [
+      0.297092,
+      "."
+    ],
+    [
+      0.132944,
+      "."
+    ],
+    [
+      0.796217,
+      "/"
+    ],
+    [
+      0.423959,
+      "g"
+    ],
+    [
+      0.230916,
+      "e"
+    ],
+    [
+      0.168041,
+      "r"
+    ],
+    [
+      0.29651,
+      "man-models/"
+    ],
+    [
+      0.785733,
+      "\r\n"
+    ],
+    [
+      0.003236,
+      "\u001b[0m\u001b[01;34m00000001\u001b[0m  alphabet.txt  input_graph.pb  lm.arpa  lm.binary  output_graph.pb  some.txt  trie\r\n"
+    ],
+    [
+      0.001129,
+      "(venv) \u001b]0;demo@tubuntu: ~/DeepSpeech\u0007\u001b[01;32mdemo@tubuntu\u001b[00m:\u001b[01;34m~/DeepSpeech\u001b[00m$ "
+    ]
+  ]
+}
