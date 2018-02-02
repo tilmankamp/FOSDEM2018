@@ -54,7 +54,7 @@
 					<h3>User's perspective (embedding)</h3>
 				</section>
 				<section>
-					<asciinema-player preload="true" font-size="16" src="casts/preparation.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/preparation.cast"></asciinema-player>
 					Preparation of the environment
 				</section>
 				<section>
@@ -66,7 +66,7 @@
 					<p>»Your power is sufficient, I said.«</p>
 				</section>
 				<section>
-					<asciinema-player preload="true" font-size="16" src="casts/python_usage.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/python_usage.cast"></asciinema-player>
 					Python usage
 				</section>
 				<section>
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 					Relevant Python code
 				</section>
 				<section>
-					<asciinema-player preload="true" font-size="16" src="casts/js_usage.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/js_usage.cast"></asciinema-player>
 					Node.js usage
 				</section>
 								<section>
@@ -115,7 +115,7 @@ audioStream.on('finish', () => {
 					<h2>Training a model</h2>
 				</section>
 				<section>
-					<asciinema-player preload="true" font-size="16" src="casts/ds_prep.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/ds_prep.cast"></asciinema-player>
 					DeepSpeech training preparation
 				</section>
 				<section>
@@ -138,11 +138,11 @@ audioStream.on('finish', () => {
 					<p>https://voice.mozilla.org/data</p>
 				</section>
 				<section>
-					<asciinema-player preload="true" font-size="16" src="casts/cv_prep.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/cv_prep.cast"></asciinema-player>
 					CommonVoice corpus installation
 				</section>
 				<section>
-					<h2>Building a language corpus from scratch</h2>
+					<h2>Training a new language from scratch</h2>
 				</section>
 				<section>
 					<p><a href="audio/jakob.wav">jakob.wav</a></p>
@@ -151,6 +151,10 @@ audioStream.on('finish', () => {
 						Your browser does not support the audio element.
 					</audio>
 					<p><small>»Typograf Jakob zürnt schweißgequält vom öden Text.«</small></p>
+				</section>
+				<section>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/corpus.cast"></asciinema-player>
+					Creating a mini corpus from <strong>jakob.wav</strong>
 				</section>
 				<section>
 					<h2>Some terminology</h2>
@@ -175,7 +179,11 @@ for batch in test_set.get_batches(test_batch_size):
 test_loss = avg(test_losses)</code></pre>
 				</section>
 				<section>
-					<pre><code class="bash" style="font-size: 20px">#!/usr/bin/env bash
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/lm_prep.cast"></asciinema-player>
+					Creating a language model
+				</section>
+				<section>
+					<pre class="stretch"><code class="bash" style="font-size: 20px">#!/usr/bin/env bash
 python -u DeepSpeech.py \
     --train_files "/home/demo/miniger/miniger-train.csv" \
     --dev_files "/home/demo/miniger/miniger-train.csv" \
@@ -188,7 +196,17 @@ python -u DeepSpeech.py \
     --word_count_weight 3.5 \
     --log_level 1 \
     --display_step 1 \
-    --epoch 200</code></pre>
+    --epoch 200 \
+    --export_dir "/home/demo/german-models"</code></pre>
+					Convenience: Preparation of a <strong>.run</strong> script
+				</section>
+				<section>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/run.cast"></asciinema-player>
+					Training one sample into extreme overfitting (realtime)
+				</section>
+				<section>
+					<asciinema-player class="stretch" speed="20" preload="true" font-size="16" src="casts/run.cast"></asciinema-player>
+					Training one sample into extreme overfitting (20x)
 				</section>
 				<section>
 					<h2>Roadmap 2018</h2>
@@ -212,7 +230,7 @@ python -u DeepSpeech.py \
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				keyboard: {
-					32: function(event) {
+					86: function(event) {
 						var slide = Reveal.getCurrentSlide()
 						var player = slide.getElementsByTagName('asciinema-player')[0]
 						if(player) {
@@ -223,8 +241,6 @@ python -u DeepSpeech.py \
 								player.play()
 								player.playing = true
 							}
-						} else {
-							Reveal.isOverview() ? Reveal.deactivateOverview() : event.shiftKey ? Reveal.prev() : Reveal.next();
 						}
 					}
 				},
