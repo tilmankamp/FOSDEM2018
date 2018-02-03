@@ -27,28 +27,37 @@
 			<div class="slides">
 				<section>
 					<h2>DeepSpeech &amp; CommonVoice</h2>
-					Tilman Kamp, Jan 2018
+					Tilman Kamp, FOSDEM 2018
 				</section>
 				<section>
 					<h3>What are we doing?</h3>
+				</section>
+				<section>
+					<p><strong>https://github.com/mozilla/DeepSpeech</strong></p>
+					<p>DeepSpeech is a speech to text (TTS) system</p>
+					<p>based on machine learning</p>
+					<p>(using the TensorFlow machine learning framework)</p>
 				</section>
 				<section>
 					<h3>Why are we doing this?</h3>
 				</section>
 				<section>
 					<h3>Reason 1</h3>
-					State of the Art Alternative to proprietary solutions
+					State of the art alternative to proprietary solutions
 				</section>
 				<section>
 					<img src="images/HAL9000.svg" alt="HAL9000" height="400em" style="border:0; background:transparent; box-shadow: none"/>
+					<p>»I am sorry, Dave...«</p>
 				</section>
 				<section>
 					<h3>Reason 2</h3>
-					Offline support to protect privacy and get lower latency
+					<p>Offline support</p>
+					<p>privacy + low latency</p>
 				</section>
 				<section>
 					<h3>Reason 3</h3>
-					End-to-end machine learning approach
+					<p>End-to-end machine learning approach</p>
+					<p>scaling + quality</p>
 				</section>
 				<section>
 					<h3>User's perspective (embedding)</h3>
@@ -112,14 +121,18 @@ audioStream.on('finish', () => {
 					<p>Set: librivox clean test</p>
 				</section>
 				<section>
-					<h2>Training a model</h2>
+					<h2>Training and development</h2>
 				</section>
 				<section>
 					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/ds_prep.cast"></asciinema-player>
-					DeepSpeech training preparation
+					DeepSpeech training and development preparation
 				</section>
 				<section>
 					<h2>Getting data</h2>
+				</section>
+				<section>
+					<img src="images/cv_download.png" height="500px" alt="voice.mozilla.org/data"/>
+					<p>https://voice.mozilla.org/data</p>
 				</section>
 				<section>
 					<img src="images/cv_page.png" height="500px" alt="voice.mozilla.org"/>
@@ -134,15 +147,12 @@ audioStream.on('finish', () => {
 					<p>Validating voice samples</p>
 				</section>
 				<section>
-					<img src="images/cv_download.png" height="500px" alt="voice.mozilla.org/data"/>
-					<p>https://voice.mozilla.org/data</p>
-				</section>
-				<section>
 					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/cv_prep.cast"></asciinema-player>
 					CommonVoice corpus installation
 				</section>
 				<section>
-					<h2>Training a new language from scratch</h2>
+					<h2>Illustrating example</h2>
+					<p>Training a new language from scratch</p>
 				</section>
 				<section>
 					<p><a href="audio/jakob.wav">jakob.wav</a></p>
@@ -209,6 +219,14 @@ python -u DeepSpeech.py \
 					Training one sample into extreme overfitting (20x)
 				</section>
 				<section>
+					<h2>Next steps</h2>
+					<p>Get moare transcribed voice data</p>
+					<p>Get moare and contemporary language model texts</p>
+					<p>Tune your hyper parameters</p>
+					<p>Get hardware - ML is computing intensive as hell</p>
+					<p>Spread the word</p>
+				</section>
+				<section>
 					<h2>Roadmap 2018</h2>
 					<p>Another language</p>
 					<p>Streaming support</p>
@@ -216,7 +234,9 @@ python -u DeepSpeech.py \
 					<p>Text To Speech (TTS)</p>
 				</section>
 				<section>
-					<h2>Q&amp;A</h2>
+					<h2>Talk to us</h2>
+					<p>https://discourse.mozilla.org/c/deep-speech</p>
+					<p>https://wiki.mozilla.org/IRC - #machinelearning</p>
 				</section>
 			</div>
 		</div>
