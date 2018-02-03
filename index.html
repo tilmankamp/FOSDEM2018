@@ -27,7 +27,9 @@
 			<div class="slides">
 				<section>
 					<h2>DeepSpeech &amp; CommonVoice</h2>
-					Tilman Kamp, FOSDEM 2018
+					<p>Tilman Kamp, FOSDEM 2018</p>
+					<br/>
+					<p><strong>tilmankamp.github.io/FOSDEM2018</strong></p>
 				</section>
 				<section>
 					<h3>What are we doing?</h3>
@@ -113,6 +115,10 @@ audioStream.on('finish', () => {
 					Relevant Node.js code
 				</section>
 				<section>
+					<h2>BTW</h2>
+					<p>Our community also provided <strong>Rust &amp; Go</strong> bindings!</p>
+				</section>
+				<section>
 					<h2>Performance</h2>
 					<table style="table-layout: fixed">
 						<tr><th>Human WER</th><th>DeepSpeech WER</th></tr>
@@ -124,7 +130,7 @@ audioStream.on('finish', () => {
 					<h2>Training and development</h2>
 				</section>
 				<section>
-					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/ds_prep.cast"></asciinema-player>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/ds_prep.cast" speed="2"></asciinema-player>
 					DeepSpeech training and development preparation
 				</section>
 				<section>
@@ -167,26 +173,38 @@ audioStream.on('finish', () => {
 					Creating a mini corpus from <strong>jakob.wav</strong>
 				</section>
 				<section>
-					<h2>Some terminology</h2>
+					<p>&lt;terminology&gt;</p>
+				</section>
+				<section>
+					<p><strong>loss</strong></p>
+					<p>how different the actual outcome is from the expected outcome</p>
+				</section>
+				<section>
+					<p><strong>sets in a data corpus</strong></p>
+					<table style="table-layout: fixed">
+						<tr><td>train-set</td><td>the data the model is trained with</td></tr>
+						<tr><td>dev-set</td><td>not trained, but used for validation</td></tr>
+						<tr><td>test-set</td><td>unbiased test at the end of the training</td></tr>
+					</table>
+				</section>
+				<section>
+					<p><strong>epoch</strong></p>
+					<p>the whole train-set got applied to the model one time</p>
 				</section>
 				<section>
 					<img src="images/loss_dev.svg" height="500px" alt="Loss development" style="border:0; background:transparent; box-shadow: none"/>
+					<p><strong>overfitting</strong></p>
 				</section>
 				<section>
-<pre><code class="python" style="font-size: 20px">for epoch in range(max_epochs):
-    for batch in train_set.get_batches(train_batch_size):
-        train_loss = model.compute_loss(batch)
-        gradients = optimizer.compute_gradients(train_loss)
-        optimizer.apply_gradients(gradients)
-    for batch in dev_set.get_batches(dev_batch_size):
-        dev_losses.append(model.compute_loss(batch))
-    dev_loss = avg(dev_losses)
-    if dev_loss > last_dev_loss:
-        return # early stop to prevent overfitting
-    last_dev_loss = dev_loss
-for batch in test_set.get_batches(test_batch_size):
-    test_losses.append(model.compute_loss(batch))
-test_loss = avg(test_losses)</code></pre>
+					<p><strong>actually we need two models</strong></p>
+					<table>
+						<tr><th>model</th><th>job</th></tr>
+						<tr><td>acoustic</td><td>listens and identifies letters</td></tr>
+						<tr><td>language</td><td>reads and understands orthography</td></tr>
+					</table>
+				</section>
+				<section>
+					<p>&lt;/terminology&gt;</p>
 				</section>
 				<section>
 					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/lm_prep.cast"></asciinema-player>
@@ -220,10 +238,10 @@ python -u DeepSpeech.py \
 				</section>
 				<section>
 					<h2>Next steps</h2>
-					<p>Get moare transcribed voice data</p>
-					<p>Get moare and contemporary language model texts</p>
+					<p>Get more transcribed voice data</p>
+					<p>Get more and contemporary language model texts</p>
 					<p>Tune your hyper parameters</p>
-					<p>Get hardware - ML is computing intensive as hell</p>
+					<p>Get hardware - ML is computing-intensive as hell</p>
 					<p>Spread the word</p>
 				</section>
 				<section>
