@@ -111,7 +111,7 @@ audioStream.on('finish', () => {
     }
     // LocalDsSTT() expected a short*
     console.log(model.stt(audioBuffer.slice(0, audioBuffer.length / 2), 16000))
-});</code></pre>
+})</code></pre>
 					Relevant Node.js code
 				</section>
 				<section>
@@ -161,18 +161,6 @@ audioStream.on('finish', () => {
 					<p>Training a new language from scratch</p>
 				</section>
 				<section>
-					<p><a href="audio/jakob.wav">jakob.wav</a></p>
-					<audio controls>
-						<source src="audio/jakob.wav" type="audio/wav"/>
-						Your browser does not support the audio element.
-					</audio>
-					<p><small>»Typograf Jakob zürnt schweißgequält vom öden Text.«</small></p>
-				</section>
-				<section>
-					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/corpus.cast"></asciinema-player>
-					Creating a mini corpus from <strong>jakob.wav</strong>
-				</section>
-				<section>
 					<p>&lt;terminology&gt;</p>
 				</section>
 				<section>
@@ -205,6 +193,21 @@ audioStream.on('finish', () => {
 				</section>
 				<section>
 					<p>&lt;/terminology&gt;</p>
+				</section>
+				<section>
+					<p>so let's begin...</p>
+				</section>
+				<section>
+					<p><a href="audio/jakob.wav">jakob.wav</a></p>
+					<audio controls>
+						<source src="audio/jakob.wav" type="audio/wav"/>
+						Your browser does not support the audio element.
+					</audio>
+					<p><small>»Typograf Jakob zürnt schweißgequält vom öden Text.«</small></p>
+				</section>
+				<section>
+					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/corpus.cast"></asciinema-player>
+					Creating a mini corpus from <strong>jakob.wav</strong>
 				</section>
 				<section>
 					<asciinema-player class="stretch" preload="true" font-size="16" src="casts/lm_prep.cast"></asciinema-player>
